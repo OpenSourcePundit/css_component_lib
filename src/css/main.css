@@ -44,7 +44,7 @@ nav {
   z-index: 1;
   background-color: var(--secondary-color);
 }
-.logo a {
+.logo .a {
   color: var(--logo-color) !important;
   font-weight: bold;
 }
@@ -89,15 +89,16 @@ nav ul li {
   margin: auto;
   max-width: 90%;
 }
-.content a {
+.content .a {
   font-size: large;
   text-decoration: none;
   color: black;
 }
 
-nav a:hover {
+nav .a:hover {
   color: var(--primary-color);
   font-weight: bold;
+  cursor: pointer;
 }
 
 main {
@@ -126,6 +127,7 @@ main {
   background-color: var(--secondary-color);
   transition: 0.7s;
   color: var(--primary-color);
+  cursor: pointer;
 }
 
 .btn_primary {
@@ -133,7 +135,7 @@ main {
   background-color: var(--primary-color);
 }
 
-.side-nav ul li a {
+.side-nav ul li .a {
   color: var(--primary-color);
 }
 
@@ -206,7 +208,7 @@ main {
   text-align: center;
 }
 
-.social-media-links a {
+.social-media-links .a {
   text-decoration: none;
   color: var(--other);
 }

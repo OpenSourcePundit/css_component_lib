@@ -1,21 +1,23 @@
 import React from 'react';
-
+import { useNavigate } from 'react-router-dom';
 const NavBar = () => {
+
+    const navigate = useNavigate();
   return (
     <nav>
       <div className="logo">
-        <a href="/index.html">OSP Components</a>
+        <div className="a" href="/index.html">OSP Components</div>
       </div>
       <div className="nav-links">
         <ul>
           <li>
-            <a href="./installation.html">Installation</a>
+            <div className="a" onClick={()=>navigate('./installation')}>Installation</div>
           </li>
           <li>
-            <a href="/components/Avatar/Avatar.html">Get Started</a>
+            <div className="a" onClick={()=>navigate('./components')}>Get Started</div>
           </li>
           <li>
-            <a href="/components/Avatar/Avatar.html">Docs</a>
+            <div className="a" onClick={()=>navigate('https://github.com/OpenSourcePundit/css_component_lib')}>Docs-GitHub</div>
           </li>
         </ul>
       </div>

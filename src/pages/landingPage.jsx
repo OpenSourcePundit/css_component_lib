@@ -1,9 +1,10 @@
 import React from "react";
+import {useNavigate} from 'react-router-dom'
 import NavBar from "./components/navbar";
 import "../css/main.css";
-import '../css/components.css';
 import Footer from "./components/footer";
 const LandingPage = () => {
+    const navigate = useNavigate();
   return (
     <div className="content">
       <NavBar />
@@ -17,14 +18,14 @@ const LandingPage = () => {
           websites.
         </div>
         <div className="main_btn">
-          <a href="./installation.html" className="btn btn_primary">
+          <div1 onClick={()=>navigate('./installation')} className="btn btn_primary a">
             Get Started
-          </a>
+          </div1>
           <a
             href="https://github.com/OpenSourcePundit/css_component_lib"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-secondary"
+            className="btn btn-secondary a"
           >
             GitHub
           </a>
