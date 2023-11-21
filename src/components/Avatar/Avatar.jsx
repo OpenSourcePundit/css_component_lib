@@ -1,10 +1,11 @@
 import React from "react";
 import "./Avatar.css";
+import '../../css/main.css'
 
 export const AvatarComponent = () => {
   return (
     <div className="main-content">
-      <h1 className="clh1">Avatars Shashank</h1>
+      <h1 className="h1">Avatars Shashank</h1>
       <p className="description">
         Users can choose from a variety of avatars to use as their profile
         photo. They're always going to be rounded squares on GitHub. They can be
@@ -105,13 +106,13 @@ export const AvatarComponent = () => {
         /> */}
       </div>
 
-      <footer className="page-footer">
-        <a className="foot-item" href="../../index.html">
+      <footer className="page-footer a">
+        <div1 className="foot-item" href="./">
           <i className="far fa-hand-point-left"></i>Home
-        </a>
-        <a className="foot-item" href="../Alert/Alert.html">
+        </div1>
+        <div1 className="foot-item a" href="../Alert/Alert.html">
           Alert<i className="far fa-hand-point-right"></i>
-        </a>
+        </div1>
       </footer>
     </div>
   );

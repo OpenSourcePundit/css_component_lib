@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <nav>
       <div className="logo">
-        <div className="a" href="/index.html">OSP Components</div>
+        <div className="a" onClick={()=>navigate('/')}>OSP Components</div>
       </div>
       <div className="nav-links">
         <ul>

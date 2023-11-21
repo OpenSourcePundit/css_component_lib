@@ -1,13 +1,11 @@
 import React from "react";
 import {useNavigate} from 'react-router-dom'
-import NavBar from "./components/navbar";
-import "../css/main.css";
+import "../styles.css";
 import Footer from "./components/footer";
 const LandingPage = () => {
     const navigate = useNavigate();
   return (
     <div className="content">
-      <NavBar />
       <main>
         <div className="header">
           Get started with your <span>Project Designs</span>.
