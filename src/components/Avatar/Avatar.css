@@ -9,6 +9,7 @@
       border-radius: 50%;
   }
   .type-two-img{
+    border: solid 2px violet;
     height: 5rem;
     width: 5rem;
   }
