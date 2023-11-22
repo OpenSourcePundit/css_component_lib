@@ -14,7 +14,7 @@ const NavBar = () => {
             <div className="a" onClick={()=>navigate('./installation')}>Installation</div>
           </li>
           <li>
-            <div className="a" onClick={()=>navigate('./components')}>Get Started</div>
+            <div className="a" onClick={()=>navigate('./components')}>All Components</div>
           </li>
           <li>
             <div className="a" onClick={()=>navigate('https://github.com/OpenSourcePundit/css_component_lib')}>Docs-GitHub</div>

@@ -220,7 +220,7 @@ main {
   border: 1px solid blue;
   display: flex;
   height: 73vh;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   flex-wrap: wrap;
   justify-content: center;

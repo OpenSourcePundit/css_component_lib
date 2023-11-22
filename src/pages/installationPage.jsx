@@ -6,16 +6,13 @@ const InstallationPage = () => {
   return (
     <div className="content">
       <div className="page-content">
-        {/* sidenav bar: remains the same for all component pages */}
-
-        {/* main content: changes according to the selected component */}
         <div className="install">
-          <p>
+          <h4>
             To begin using the styles provided by <span>OSP Components</span>{" "}
             <br /> in your project, put the URL supplied in the code snippet
             below stylesheets link in your project. <br /> This is a free, open
             source library that provides ready-to-use frontend components
-          </p>
+          </h4>
           <div className="code-example-block">
             <iframe
               title="unique"
@@ -31,10 +28,10 @@ const InstallationPage = () => {
             ></iframe>
           </div>
 
-          <h3>
+          <h4>
             To get the Font Awesome Icons, import the following link tag of your
             project.
-          </h3>
+          </h4>
           <div className="code-example-block">
             <iframe
               title="unique"

@@ -5,16 +5,24 @@ import ComponentsListingPage from "./pages/componentListing";
 import Alert from './components/Alert/Alert'
 import Badge from './components/Badges/Badges'
 import Button from './components/Button/Button'
-// import Avatar from './components/Avatar/Avatar'
-// import Avatar from './components/Avatar/Avatar'
-// import Avatar from './components/Avatar/Avatar'
+import Grid from './components/Grid/Grid'
+import Image from './components/Image/Image'
+import Input from './components/Input/Input'
+import Lists from './components/Lists/Lists'
+import Modal from './components/Modal/Modal'
+import Navigation from './components/Navigation/Navigation'
 
-import Avatar from './components/Avatar/Avatar'
+
+ import Card from './components/Card/Card'
+import Rating from './components/Rating/Rating'
+import Slider from "./components/Slider/Slider";
+import Snackbar from "./components/Snackbar/Snackbar";
+import TextUtils from "./components/Text-Utilities/TextUtil";
 
 export{
     AvatarComponent,
     InstallationPage,
     ComponentsListingPage,
     LandingPage,Alert,
-    Badge,Button,
+    Badge,Button,Slider,Snackbar,TextUtils,Rating,Card,Grid,Image,Input,Lists,Modal,Navigation
 }

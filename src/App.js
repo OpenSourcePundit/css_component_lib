@@ -2,7 +2,8 @@ import {Routes,Route} from 'react-router-dom'
 import './App.css';
 //import './styles.css'
 import './css/main.css'
-import { LandingPage,AvatarComponent,InstallationPage,ComponentsListingPage,Alert,
+import './css/components.css'
+import { LandingPage,AvatarComponent,InstallationPage,ComponentsListingPage,Alert,Slider,Snackbar,TextUtils,Rating,Card,Grid,Image,Input,Lists,Modal,Navigation,
   Badge,Button } from './components';
 import NavBar from './pages/components/navbar';
 import Footer from './pages/components/footer';
@@ -30,26 +31,61 @@ const componentRoutes = [
     path: "components/button",
     route: <Button />,
   },
-  // {
-  //   name: "Card",
-  //   path: "components/card",
-  //   route: <Card />,
-  // },
-  // {
-  //   name: "Heading",
-  //   path: "components/heading",
-  //   route: <Heading />,
-  // },
-  // {
-  //   name: "Image",
-  //   path: "components/image",
-  //   route: <Image />,
-  // },
-  // {
-  //   name: "Text",
-  //   path: "components/text",
-  //   route: <Text />,
-  // },
+  {
+    name: "Rating",
+    path: "components/rating",
+    route: <Rating />,
+  },
+  {
+    name: "Card",
+    path: "components/card",
+    route: <Card />,
+  },
+  {
+    name: "Grid",
+    path: "components/grid",
+    route: <Grid />,
+  },
+  {
+    name: "Image",
+    path: "components/image",
+    route: <Image />,
+  },
+  {
+    name: "Input",
+    path: "components/input",
+    route: <Input />,
+  },
+  {
+    name: "Lists",
+    path: "components/lists",
+    route: <Lists />,
+  },
+  {
+    name: "Modal",
+    path: "components/modal",
+    route: <Modal />,
+  },
+  {
+    name: "Navigation",
+    path: "components/navigation",
+    route: <Navigation />,
+  },
+  {
+    name: "Slider",
+    path: "components/slider",
+    route: <Slider />,
+  },
+  {
+    name: "Snackbar",
+    path: "components/snackbar",
+    route: <Snackbar />,
+  },
+  {
+    name: "TextUtils",
+    path: "components/textutils",
+    route: <TextUtils />,
+  },
 ];
 
 const pathRoutes = [

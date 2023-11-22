@@ -1,0 +1,270 @@
+.cardcom {
+  margin: 2rem auto 4rem auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  background-color: var(--secondary-color);
+  border-radius: 0.5rem;
+  width: 17.5rem;
+  box-shadow: 0.3rem 0.5rem 0.6rem 0.2rem grey;
+}
+
+.card:hover{
+    box-shadow: 0.3rem 0.5rem 0.6rem 0.2rem rgb(98, 98, 98);}
+
+.card-image-one {
+  width: 17.5rem;
+  height: 12rem;
+  object-fit: contain;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+
+/* BASIC */
+.card-text-one {
+  padding: 0.5rem;
+}
+
+.card-text-one:hover {
+  background-color: rgb(255, 239, 252);
+  cursor: pointer;
+  transition: 1s all;
+}
+
+.card-text-one summary {
+  margin: 0.5rem 0rem;
+}
+.cardcom footer {
+  display: flex;
+  justify-content: space-between;
+  color: var(--primary-color);
+  margin: 0.3rem;
+}
+
+.cardcom span {
+  padding: 0.3rem;
+  border: 0.5rem;
+  cursor: pointer;
+  color: black;
+}
+.cardcom span:hover {
+  color: var(--primary-color);
+}
+
+.cardcom i:hover {
+  color: var(--alternate-color);
+}
+
+.cardcom i {
+  width: 1rem;
+  height: 1rem;
+  text-align: center;
+  margin: 0rem 0.5rem;
+  padding: 0.4rem 0.25rem 0rem 0.25rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* two */
+
+.noshadow {
+  box-shadow: none;
+  border: 1px dotted var(--alternate-color);
+}
+
+.card-image-two {
+   width: 5rem;
+  height: 5rem;
+  border-top-left-radius: 0.5rem;
+}
+
+.cardcom section {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.cardcom article {
+  padding: 0.5rem;
+}
+
+.cardcom section:hover {
+  cursor: pointer;
+  background-color: var(--hover-color2);
+}
+
+/* icons styling */
+
+.cardcom .fa-heart:hover {
+  color: red;
+}
+
+.cardcom .fa-share-alt:hover {
+  color: rgb(64, 121, 255);
+}
+
+.cardcom .fa-ellipsis-v:hover {
+  color: black;
+}
+
+/* badge card */
+
+.cardcom .card-badge {
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0;
+  position: relative;
+}
+
+.cardcom .card-badge:hover {
+  background-color: var(--hover);
+}
+.card .product-detail > p {
+  font-size: medium;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.card  .update-badge {
+  position: absolute;
+  background-color: var(--positive-color);
+  font-size: 0.6rem;
+  font-weight: bold;
+  top: 3rem;
+}
+
+.card .rating {
+  background-color: var(--positive-color);
+  font-size: x-small;
+}
+
+.card .rating > i {
+  padding: 0;
+  margin: 0;
+}
+
+.card .price {
+  font-size: medium;
+  padding-top: 0.5rem;
+}
+.card .old-price {
+  text-decoration: line-through;
+  color: var(--disable-color);
+}
+
+.card .discount {
+  color: var(--positive-color);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.card .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.3rem;
+}
+
+.card .card-image {
+  height: 22rem;
+}
+
+.cardcom .hide {
+  visibility: hidden;
+  /* display: none; */
+}
+
+/* .product-detail:hover + .size{
+  display: block;
+} */
+
+/* card with dismiss */
+
+.cardcom .close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: var(--negative-color);
+  padding: 0;
+  margin: 0;
+}
+
+.cardcom .button {
+  margin: 0.5rem;
+  border: 1px dashed var(--disable-color);
+  padding: 0.4rem;
+  background-color: white;
+}
+
+.cardcom .negative {
+  background-color: var(--negative-color);
+}
+
+
+
+/* text over cards */
+
+.cardcom .text-over{
+    
+    position: absolute;
+    top: 11rem;
+    left: 6rem;
+    background-color: black;
+    color: white;
+    padding: 0.9rem;
+}
+
+.cardtext{
+    filter: opacity(50%);
+}
+
+
+/* horizontal */
+
+.horizontal>img{
+    width: 12rem;
+    height: 16rem;
+    padding: 0.8rem;
+}
+
+.horizontal{
+    display: flex;
+    flex-direction: row;
+    width: 30rem;
+    background-color: white;
+    position: relative;
+}
+
+.horizontal .fas{
+    padding: 0.05rem 0rem;
+    margin: 0;
+}
+
+.horizontal .product-detail{
+    line-height: 2rem;
+}
+.cardcom footer ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.cardcom .button{
+ margin: 0rem 1rem;
+ padding: 0.6rem;
+ border-radius: 1.5rem;
+ text-align: center;
+ background-color: rgb(255, 170, 58);
+
+}
+
+.horizontal .footer{
+    margin-top: 4rem;
+}
+@media screen and (max-width:590px){
+  
+  .remove{
+     display: none;
+   }
+}
