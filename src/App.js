@@ -1,7 +1,7 @@
 import {Routes,Route} from 'react-router-dom'
 import './App.css';
-import './styles.css'
-
+//import './styles.css'
+import './css/main.css'
 import { LandingPage,AvatarComponent,InstallationPage } from './components';
 import NavBar from './pages/components/navbar';
 

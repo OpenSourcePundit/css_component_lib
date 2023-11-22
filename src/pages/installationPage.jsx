@@ -31,10 +31,10 @@ const InstallationPage = () => {
             ></iframe>
           </div>
 
-          <p>
+          <h3>
             To get the Font Awesome Icons, import the following link tag of your
             project.
-          </p>
+          </h3>
           <div className="code-example-block">
             <iframe
               title="unique"
@@ -52,10 +52,10 @@ const InstallationPage = () => {
           </div>
           <footer className="page-footer">
             <div1 onClick={()=>navigate('/')} className="foot-item a" >
-              <i className="far fa-hand-point-left"></i>Home
+              Home
             </div1>
             <div1 onClick={()=>navigate('/components')} className="foot-item a">
-              Components<i className="far fa-hand-point-right"></i>
+              Components
             </div1>
           </footer>
         </div>

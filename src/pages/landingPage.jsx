@@ -1,6 +1,6 @@
 import React from "react";
 import {useNavigate} from 'react-router-dom'
-import "../styles.css";
+
 import Footer from "./components/footer";
 const LandingPage = () => {
     const navigate = useNavigate();
