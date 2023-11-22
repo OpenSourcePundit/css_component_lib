@@ -60,7 +60,6 @@ const InstallationPage = () => {
           </footer>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

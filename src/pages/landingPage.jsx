@@ -34,7 +34,6 @@ const LandingPage = () => {
           alt="Creative Team"
         />
       </main>
-      <Footer/>
     </div>
   );
 };

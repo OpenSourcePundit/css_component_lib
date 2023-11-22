@@ -215,3 +215,21 @@ main {
   text-decoration: none;
   color: var(--other);
 }
+
+.component-listing{
+  border: 1px solid blue;
+  display: flex;
+  height: 73vh;
+  width: 60%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.component-tab{
+  height: 50px;
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
