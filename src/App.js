@@ -4,10 +4,10 @@ import './App.css';
  import './css/main.css'
 // import './css/components.css'
 import { LandingPage,InstallationPage,ComponentsListingPage,
-  // Alert,Slider,TextUtils,
+  Alert,Slider,TextUtils,
   // Rating,Card,Grid,Image,
   // Input,Lists,AvatarComponent,
-  Badges,Button,
+  // Badges,Button,
   // Snackbar,Navigation,
 } from './components';
 import NavBar from './pages/components/navbar';
@@ -16,26 +16,26 @@ import Footer from './pages/components/footer';
 
 
 const componentRoutes = [
-  // {
-  //   name: "Alert",
-  //   path: "components/alert",
-  //   route: <Alert />,
-  // },
+  {
+    name: "Alert",
+    path: "components/alert",
+    route: <Alert />,
+  },
   // {
   //   name: "Avatar",
   //   path: "components/avatar",
   //   route: <AvatarComponent />,
   // },
-  {
-    name: "Badges",
-    path: "components/badges",
-    route: <Badges />,
-  },
-  {
-    name: "Button",
-    path: "components/button",
-    route: <Button />,
-  },
+  // {
+  //   name: "Badges",
+  //   path: "components/badges",
+  //   route: <Badges />,
+  // },
+  // {
+  //   name: "Button",
+  //   path: "components/button",
+  //   route: <Button />,
+  // },
   // {
   //   name: "Rating",
   //   path: "components/rating",
@@ -76,21 +76,21 @@ const componentRoutes = [
   // //   path: "components/navigation",
   // //   route: <Navigation />,
   // // },
-  // {
-  //   name: "Slider",
-  //   path: "components/slider",
-  //   route: <Slider />,
-  // },
+  {
+    name: "Slider",
+    path: "components/slider",
+    route: <Slider />,
+  },
   // // {
   // //   name: "Snackbar",
   // //   path: "components/snackbar",
   // //   route: <Snackbar />,
   // // },
-  // {
-  //   name: "TextUtils",
-  //   path: "components/textutils",
-  //   route: <TextUtils />,
-  // },
+  {
+    name: "TextUtils",
+    path: "components/textutils",
+    route: <TextUtils />,
+  },
 ];
 
 const pathRoutes = [
