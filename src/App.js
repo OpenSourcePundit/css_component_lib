@@ -6,7 +6,7 @@ import './App.css';
 import { LandingPage,InstallationPage,ComponentsListingPage,
   Alert,Slider,TextUtils,
   Rating,Card,Grid,Image,
-  Input,Lists,AvatarComponent,
+  // Input,Lists,AvatarComponent,
   // Badges,Button,
   // Snackbar,Navigation,
 } from './components';
@@ -21,11 +21,11 @@ const componentRoutes = [
     path: "components/alert",
     route: <Alert />,
   },
-  {
-    name: "Avatar",
-    path: "components/avatar",
-    route: <AvatarComponent />,
-  },
+  // {
+  //   name: "Avatar",
+  //   path: "components/avatar",
+  //   route: <AvatarComponent />,
+  // },
   // {
   //   name: "Badges",
   //   path: "components/badges",
@@ -56,16 +56,16 @@ const componentRoutes = [
     path: "components/image",
     route: <Image />,
   },
-  {
-    name: "Input",
-    path: "components/input",
-    route: <Input />,
-  },
-  {
-    name: "Lists",
-    path: "components/lists",
-    route: <Lists />,
-  },
+  // {
+  //   name: "Input",
+  //   path: "components/input",
+  //   route: <Input />,
+  // },
+  // {
+  //   name: "Lists",
+  //   path: "components/lists",
+  //   route: <Lists />,
+  // },
   // // {
   // //   name: "Modal",
   // //   path: "components/modal",
