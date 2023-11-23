@@ -26,7 +26,7 @@ const Card = () =>{
             <div className="type-one--card">
               <div className="cardcom background">
                 <div className="card">
-                  <img className="card-image-one" src={require("../../assets/avatar/card-image.jpg")} alt="card-image" />
+                  {/* <img className="card-image-one" src={require("../../assets/avatar/card-image.jpg")} alt="card-image" /> */}
                   <article className="card-text-one">
                     <figcaption>"That's my spot."</figcaption>
                     <h6>- Sheldon Cooper</h6>
@@ -64,7 +64,7 @@ const Card = () =>{
               <div className="cardcom background">
                 <div className="card noshadow">
                   <section>
-                    <img className="card-image-two" src={require("../../assets/avatar/card-image.jpg")} alt="card-image" />
+                    {/* <img className="card-image-two" src={require("../../assets/avatar/card-image.jpg")} alt="card-image" /> */}
                     <article className="card-text-two">
                       <h3>"That's my spot."</h3>
                       <h5>- Sheldon Cooper</h5>
@@ -102,7 +102,7 @@ const Card = () =>{
               <div className="cardcom white">
                 <div className="card card-badge">
                   <span className="update-badge">Trending!</span>
-                  <img className="card-image" src={require("../../assets/card/card-img1.jpg" )} alt="card-image" />
+                  {/* <img className="card-image" src={require("../../assets/card/card-img1.jpg" )} alt="card-image" /> */}
 
                   <div className="product-detail">
                     <p>GRU INC.</p>
@@ -143,7 +143,7 @@ const Card = () =>{
               <div className="cardcom white">
                 <div className="card card-badge dismiss">
                   <span className="update-badge">Trending!</span>
-                  <img className="card-image" src={require("../../assets/card/card-img2.jpg")} alt="card-image" />
+                  {/* <img className="card-image" src={require("../../assets/card/card-img2.jpg")} alt="card-image" /> */}
                   <span className="close">
                     <i className="fas fa-times-circle"></i>
                   </span>
@@ -187,7 +187,7 @@ const Card = () =>{
               <div className="cardcom white">
                 <div className="card card-badge cardtext">
                   <span className="update-badge">Trending!</span>
-                  <img className="card-img" src={require("../../assets/card/card-img3.jpg")} alt="card-image" />
+                  {/* <img className="card-img" src={require("../../assets/card/card-img3.jpg")} alt="card-image" /> */}
                   <div className="product-detail">
                     <p className="text-over">OUT OF STOCK</p>
                     <p>GRU INC.</p>
@@ -227,7 +227,7 @@ const Card = () =>{
             <div className="type-one--card remove">
               <div className="cardcom white">
                 <div className="card horizontal">
-                  <img className="card-img" src={require("../../assets/card/card-img4.png")} alt="card-image" />
+                  {/* <img className="card-img" src={require("../../assets/card/card-img4.png")} alt="card-image" /> */}
                   <div className="product-detail">
                     <p>GRU INC.</p>
                     <p>Valentine's Gift Cat Toy</p>
@@ -267,7 +267,7 @@ const Card = () =>{
 
             <div className="gif-example">
               <h1>How to Use?</h1>
-              <img className="gifs" src={require("../../assets/exampleGifs/cards.gif")} alt="avatar-exaple" />
+              {/* <img className="gifs" src={require("../../assets/exampleGifs/cards.gif")} alt="avatar-exaple" /> */}
             </div>
             <footer className="page-footer">
               <a className="foot-item" href="../Button/Button.html">
@@ -285,109 +285,4 @@ const Card = () =>{
 }
 export default Card
 
-
-{/* <div class="side-nav">
-        <ul>
-          <li>
-            <a href="../Avatar/Avatar.html">Avatar</a>
-          </li>
-          <li>
-            <a href="../Alert/Alert.html">Alert</a>
-          </li>
-          <li>
-            <a href="../Badges/Badges.html">Badges</a>
-          </li>
-          <li>
-            <a href="../Button/Button.html">Button</a>
-          </li>
-          <li>
-            <a id="active" href="../Card/Cards.html">Card</a>
-          </li>
-          <li>
-            <a href="../Image/Image.html">Image</a>
-          </li>
-          <li>
-            <a href="../Input/Input.html">Inputs</a>
-            <hr />
-          </li>
-          <li>
-            <a href="../Text-Utilities/TextUtil.html">Text Utils</a>
-          </li>
-          <li>
-            <a href="../Lists/Lists.html">Lists</a>
-          </li>
-          <li>
-            <a href="../Navigation/Navigation.html">Navigation</a>
-          </li>
-          <li>
-            <a href="../Modal/Modal.html">Modal</a>
-          </li>
-          <li>
-            <a href="../Rating/Rating.html">Ratings</a>
-          </li>
-          <li>
-            <a href="../Snackbar/Snackbar.html">Snackbar</a>
-          </li>
-          <li>
-            <a href="../Grid/Grid.html">Grids</a>
-          </li>
-          <li>
-            <a href="../Slider/Slider.html">Slider</a>
-          </li>
-        </ul>
-      </div>
-
-
-<div class="top-navbar">
-      <ul>
-        <li>
-          <a href="../Avatar/Avatar.html">Avatar</a>
-        </li>
-        <li>
-          <a href="../Alert/Alert.html">Alert</a>
-        </li>
-        <li>
-          <a href="../Badges/Badges.html">Badges</a>
-        </li>
-        <li>
-          <a href="../Button/Button.html">Button</a>
-        </li>
-        <li>
-          <a  id="active" href="../Card/Card.html">Card</a>
-        </li>
-        <li>
-          <a href="../Image/Image.html">Image</a>
-        </li>
-        <li>
-          <a href="../Input/Input.html">Input</a>
-          
-        </li>
-        <li>
-          <a href="../Text-Utilities/TextUtil.html">Text Utils</a>
-        </li>
-        <li>
-          <a href="../Lists/Lists.html">Lists</a>
-        </li>
-        <li>
-          <a href="../Navigation/Navigation.html">Navigation</a>
-        </li>
-        <li>
-          <a href="../Modal/Modal.html">Modal</a>
-        </li>
-        <li>
-          <a href="../Rating/Rating.html">Ratings</a>
-        </li>
-        <li>
-          <a href="../Snackbar/Snackbar.html">Snackbar</a>
-        </li>
-        <li>
-          <a href="../Grid/Grid.html">Grids</a>
-        </li>
-        <li>
-          <a href="../Slider/Slider.html">Slider</a>
-        </li>
-      </ul>
-      <hr/>
-    </div> */}
- 
 
