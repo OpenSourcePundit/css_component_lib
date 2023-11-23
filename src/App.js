@@ -8,7 +8,7 @@ import { LandingPage,InstallationPage,ComponentsListingPage,
   // Rating,Card,Grid,Image,
   // Input,Lists,AvatarComponent,
   // Badges,
-  // Button,
+  Button,
   // Snackbar,Navigation,
 } from './components';
 import NavBar from './pages/components/navbar';
@@ -32,11 +32,11 @@ const componentRoutes = [
   //   path: "components/badges",
   //   route: <Badges />,
   // },
-  // {
-  //   name: "Button",
-  //   path: "components/button",
-  //   route: <Button />,
-  // },
+  {
+    name: "Button",
+    path: "components/button",
+    route: <Button />,
+  },
   // {
   //   name: "Rating",
   //   path: "components/rating",
