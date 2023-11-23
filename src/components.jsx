@@ -10,12 +10,12 @@ import Image from './components/Image/Image'
 import Input from './components/Input/Input'
 import Lists from './components/Lists/Lists'
 // import Modal from './components/Modal/Modal'
-// import Navigation from './components/Navigation/Navigation'
+import Navigation from './components/Navigation/Navigation'
 
  import Card from './components/Card/Card'
 import Rating from './components/Rating/Rating'
 import Slider from "./components/Slider/Slider";
-// import Snackbar from "./components/Snackbar/Snackbar";
+import Snackbar from "./components/Snackbar/Snackbar";
 import TextUtils from "./components/Text-Utilities/TextUtil";
 
 export{
@@ -23,6 +23,6 @@ export{
     InstallationPage,
     ComponentsListingPage,
     LandingPage,
-    // Snackbar,Navigation,
-    Badges,Button,Slider,TextUtils,Rating,Card,Grid,Image,Input,Lists,AvatarComponent,Alert,
+    Snackbar,Navigation,Slider,
+    Badges,Button,TextUtils,Rating,Card,Grid,Image,Input,Lists,AvatarComponent,Alert,
 }
