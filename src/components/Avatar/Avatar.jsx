@@ -1,6 +1,6 @@
 import React from "react";
 import "./Avatar.css";
-import '../../css/main.css'
+import "../../css/main.css"
 import { TopNavBar,SideNavBar } from "../../pages/components/component-navbar";
 
 export const AvatarComponent = () => {
