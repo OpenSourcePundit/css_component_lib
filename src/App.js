@@ -5,8 +5,8 @@ import './App.css';
 // import './css/components.css'
 import { LandingPage,InstallationPage,ComponentsListingPage,
   Alert,Slider,TextUtils,
-  Rating,Card,Grid,Image,
-  // Input,Lists,AvatarComponent,
+  // Rating,Card,Grid,Image,
+  Input,Lists,AvatarComponent,
   // Badges,Button,
   // Snackbar,Navigation,
 } from './components';
@@ -21,11 +21,11 @@ const componentRoutes = [
     path: "components/alert",
     route: <Alert />,
   },
-  // {
-  //   name: "Avatar",
-  //   path: "components/avatar",
-  //   route: <AvatarComponent />,
-  // },
+  {
+    name: "Avatar",
+    path: "components/avatar",
+    route: <AvatarComponent />,
+  },
   // {
   //   name: "Badges",
   //   path: "components/badges",
@@ -36,36 +36,36 @@ const componentRoutes = [
   //   path: "components/button",
   //   route: <Button />,
   // },
-  {
-    name: "Rating",
-    path: "components/rating",
-    route: <Rating />,
-  },
-  {
-    name: "Card",
-    path: "components/card",
-    route: <Card />,
-  },
-  {
-    name: "Grid",
-    path: "components/grid",
-    route: <Grid />,
-  },
-  {
-    name: "Image",
-    path: "components/image",
-    route: <Image />,
-  },
   // {
-  //   name: "Input",
-  //   path: "components/input",
-  //   route: <Input />,
+  //   name: "Rating",
+  //   path: "components/rating",
+  //   route: <Rating />,
   // },
   // {
-  //   name: "Lists",
-  //   path: "components/lists",
-  //   route: <Lists />,
+  //   name: "Card",
+  //   path: "components/card",
+  //   route: <Card />,
   // },
+  // {
+  //   name: "Grid",
+  //   path: "components/grid",
+  //   route: <Grid />,
+  // },
+  // {
+  //   name: "Image",
+  //   path: "components/image",
+  //   route: <Image />,
+  // },
+  {
+    name: "Input",
+    path: "components/input",
+    route: <Input />,
+  },
+  {
+    name: "Lists",
+    path: "components/lists",
+    route: <Lists />,
+  },
   // // {
   // //   name: "Modal",
   // //   path: "components/modal",
