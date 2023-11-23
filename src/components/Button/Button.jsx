@@ -33,7 +33,7 @@ const Button = () =>{
                 <button className="btn disabled">Disabled</button>
               </div>
               <div className="code-example-block">
-                <iframe title='unique'
+                {/* <iframe title='unique'
                   src="https://carbon.now.sh/embed?"
                   style={{
                     margin: 'auto',
@@ -44,7 +44,7 @@ const Button = () =>{
                     overflow: 'hidden',
                   }}
                   sandbox="allow-scripts allow-same-origin"
-                ></iframe>
+                ></iframe> */}
               </div>
             </div>
 
@@ -69,7 +69,7 @@ const Button = () =>{
               </div>
 
               <div className="code-example-block">
-                <iframe title='unique'
+                {/* <iframe title='unique'
                   src="https://carbon.now.sh/embed?"
                   style={{
                     margin: 'auto',
@@ -80,7 +80,7 @@ const Button = () =>{
                     overflow: 'hidden',
                   }}
                   sandbox="allow-scripts allow-same-origin"
-                ></iframe>
+                ></iframe> */}
               </div>
             </div>
 
@@ -101,7 +101,7 @@ const Button = () =>{
               </button>
             </div>
             <div className="code-example-block">
-              <iframe title='unique'
+              {/* <iframe title='unique'
                 src="https://carbon.now.sh/embed"
                 style={{
                   margin: 'auto',
@@ -112,7 +112,7 @@ const Button = () =>{
                   overflow: 'hidden',
                 }}
                 sandbox="allow-scripts allow-same-origin"
-              ></iframe>
+              ></iframe> */}
             </div>
           </div>
           <div className="gif-example">
