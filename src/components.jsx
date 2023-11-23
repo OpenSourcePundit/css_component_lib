@@ -23,6 +23,6 @@ export{
     InstallationPage,
     ComponentsListingPage,
     LandingPage,
-    Snackbar,Navigation,Slider,
-    Badges,Button,TextUtils,Rating,Card,Grid,Image,Input,Lists,AvatarComponent,Alert,
+    // Snackbar,Navigation,Slider,
+    // Badges,Button,TextUtils,Rating,Card,Grid,Image,Input,Lists,AvatarComponent,Alert,
 }
