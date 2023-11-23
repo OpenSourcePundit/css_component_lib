@@ -4,7 +4,7 @@ import InstallationPage from "./pages/installationPage";
 import ComponentsListingPage from "./pages/componentListing";
 import Alert from './components/Alert/Alert'
 // import Badges from './components/Badges/Badges'
-// import Button from './components/Button/Button'
+import Button from './components/Button/Button'
 // import Grid from './components/Grid/Grid'
 // import Image from './components/Image/Image'
 // import Input from './components/Input/Input'
@@ -27,6 +27,6 @@ export{
     // Rating,Card,Grid,Image,
 //   Input,Lists,AvatarComponent,
 //   Badges,
-// Button,
+Button,
   // Snackbar,Navigation,
 }
