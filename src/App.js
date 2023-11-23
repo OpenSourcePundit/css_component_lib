@@ -4,7 +4,10 @@ import './App.css';
  import './css/main.css'
 // import './css/components.css'
 import { LandingPage,InstallationPage,ComponentsListingPage,
-  Alert,Slider,TextUtils,Rating,Card,Grid,Image,Input,Lists,AvatarComponent,Badges,Button,
+  // Alert,Slider,TextUtils,
+  // Rating,Card,Grid,Image,
+  // Input,Lists,AvatarComponent,
+  Badges,Button,
   // Snackbar,Navigation,
 } from './components';
 import NavBar from './pages/components/navbar';
@@ -23,16 +26,16 @@ const componentRoutes = [
   //   path: "components/avatar",
   //   route: <AvatarComponent />,
   // },
-  // {
-  //   name: "Badges",
-  //   path: "components/badges",
-  //   route: <Badges />,
-  // },
-  // {
-  //   name: "Button",
-  //   path: "components/button",
-  //   route: <Button />,
-  // },
+  {
+    name: "Badges",
+    path: "components/badges",
+    route: <Badges />,
+  },
+  {
+    name: "Button",
+    path: "components/button",
+    route: <Button />,
+  },
   // {
   //   name: "Rating",
   //   path: "components/rating",
