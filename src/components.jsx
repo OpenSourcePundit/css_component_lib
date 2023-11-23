@@ -1,14 +1,14 @@
-import AvatarComponent from "./components/Avatar/Avatar";
+// import AvatarComponent from "./components/Avatar/Avatar";
 import LandingPage from "./pages/landingPage";
 import InstallationPage from "./pages/installationPage";
 import ComponentsListingPage from "./pages/componentListing";
 import Alert from './components/Alert/Alert'
 // import Badges from './components/Badges/Badges'
-// import Button from './components/Button/Button'
+import Button from './components/Button/Button'
 // import Grid from './components/Grid/Grid'
 // import Image from './components/Image/Image'
-import Input from './components/Input/Input'
-import Lists from './components/Lists/Lists'
+// import Input from './components/Input/Input'
+// import Lists from './components/Lists/Lists'
 // // import Modal from './components/Modal/Modal'
 // import Navigation from './components/Navigation/Navigation'
 
@@ -25,7 +25,8 @@ export{
     LandingPage,
       Alert,Slider,TextUtils,
     // Rating,Card,Grid,Image,
-  Input,Lists,AvatarComponent,
-//   Badges,Button,
+//   Input,Lists,AvatarComponent,
+//   Badges,
+Button,
   // Snackbar,Navigation,
 }
