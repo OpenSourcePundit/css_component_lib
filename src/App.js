@@ -3,7 +3,7 @@ import './App.css';
 //import './styles.css'
  import './css/main.css'
 // import './css/components.css'
-import { LandingPage,AvatarComponent,InstallationPage,ComponentsListingPage,Alert,Slider,Snackbar,TextUtils,Rating,Card,Grid,Image,Input,Lists,Modal,Navigation,
+import { LandingPage,AvatarComponent,InstallationPage,ComponentsListingPage,Alert,Slider,Snackbar,TextUtils,Rating,Card,Grid,Image,Input,Lists,Navigation,
   Badges,Button } from './components';
 import NavBar from './pages/components/navbar';
 import Footer from './pages/components/footer';

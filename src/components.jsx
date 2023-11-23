@@ -23,5 +23,5 @@ export{
     InstallationPage,
     ComponentsListingPage,
     LandingPage,Alert,
-    Badges,Button,Slider,Snackbar,TextUtils,Rating,Card,Grid,Image,Input,Lists,Modal,Navigation
+    Badges,Button,Slider,Snackbar,TextUtils,Rating,Card,Grid,Image,Input,Lists,Navigation
 }
