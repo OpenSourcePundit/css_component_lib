@@ -1,110 +1,15 @@
 import React from "react";
 import './Slider.css'
+import { TopNavBar,SideNavBar } from "../../pages/components/component-navbar";
+
+
+
 const Slider = () =>{
   return (
     <div className="content">
-      <div class="top-navbar">
-        <ul>
-          <li>
-            <a href="../Avatar/Avatar.html">Avatar</a>
-          </li>
-          <li>
-            <a  href="../Alert/Alert.html">Alert</a>
-          </li>
-          <li>
-            <a href="../Badges/Badges.html">Badges</a>
-          </li>
-          <li>
-            <a  href="../Button/Button.html">Button</a>
-          </li>
-          <li>
-            <a href="../Card/Card.html">Card</a>
-          </li>
-          <li>
-            <a href="../Image/Image.html">Image</a>
-          </li>
-          <li>
-            <a href="../Input/Input.html">Input</a>
-            
-          </li>
-          <li>
-            <a href="../Text-Utilities/TextUtil.html">Text Utils</a>
-          </li>
-          <li>
-            <a href="../Lists/Lists.html">Lists</a>
-          </li>
-          <li>
-            <a  id="active" href="../Navigation/Navigation.html">Navigation</a>
-          </li>
-          <li>
-            <a href="../Modal/Modal.html">Modal</a>
-          </li>
-          <li>
-            <a href="../Rating/Rating.html">Ratings</a>
-          </li>
-          <li>
-            <a href="../Snackbar/Snackbar.html">Snackbar</a>
-          </li>
-          <li>
-            <a href="../Grid/Grid.html">Grids</a>
-          </li>
-          <li>
-            <a href="../Slider/Slider.html">Slider</a>
-          </li>
-        </ul>
-        <hr/>
-      </div>
+      <TopNavBar/>
       <div className="page-content">
-        {/* Sidenav Bar */}
-        <div className="side-nav">
-          <ul>
-            <li>
-              <a className="a" href="../Avatar/Avatar.html">Avatar</a>
-            </li>
-            <li>
-              <a className="a" href="../Alert/Alert.html">Alert</a>
-            </li>
-            <li>
-              <a className="a" href="../Badges/Badges.html">Badges</a>
-            </li>
-            <li>
-              <a className="a" href="../Button/Button.html">Button</a>
-            </li>
-            <li>
-              <a className="a" href="../Card/Card.html">Card</a>
-            </li>
-            <li>
-              <a className="a" href="../Image/Image.html">Image</a>
-            </li>
-            <li>
-              <a className="a" href="../Input/Input.html">Input</a>
-              
-            </li>
-            <li>
-              <a className="a" href="../Text-Utilities/TextUtil.html">Text Utils</a>
-            </li>
-            <li>
-              <a className="a" href="../Lists/Lists.html">Lists</a>
-            </li>
-            <li>
-              <a className="a" href="../Navigation/Navigation.html">Navigation</a>
-            </li>
-            <li>
-              <a className="a" href="../Modal/Modal.html">Modal</a>
-            </li>
-            <li>
-              <a className="a" id="active" href="../Rating/Rating.html">Ratings</a>
-            </li>
-            <li>
-              <a className="a" href="../Snackbar/Snackbar.html">Snackbar</a>
-            </li>
-            <li>
-              <a className="a" id="active" href="../Slider/Slider.html">Slider</a>
-            </li>
-          </ul>
-        </div>
-
-        {/* Main Content */}
+        <SideNavBar/>
         <div className="main-content">
           <h1 className="clh1">Slider</h1>
           <p className="description">

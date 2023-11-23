@@ -219,17 +219,17 @@ main {
 .component-listing{
   border: 1px solid blue;
   display: flex;
-  height: 73vh;
-  width: 80%;
+  min-height: 73vh;
+  width: 100%;
   margin: 0 auto;
   flex-wrap: wrap;
   justify-content: center;
 }
-.component-tab{
+#component-tab{
   height: 50px;
   width: 20rem;
   display: flex;
   align-items: center;
   justify-content: center;
-
+  padding: 0.6rem;
 }

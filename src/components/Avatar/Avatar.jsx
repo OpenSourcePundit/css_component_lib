@@ -1,12 +1,18 @@
 import React from "react";
 import "./Avatar.css";
 import '../../css/main.css'
+import { TopNavBar,SideNavBar } from "../../pages/components/component-navbar";
 
 export const AvatarComponent = () => {
   return (
     <div className="content">
+      <TopNavBar/>
+
       <div className="page-content">
+      <SideNavBar/>
+
       <div className="main-content">
+      <h1 className="clh1">Avatar</h1>
       <p className="description">
         Users can choose from a variety of avatars to use as their profile
         photo. They're always going to be rounded squares on GitHub. They can be

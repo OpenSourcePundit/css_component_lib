@@ -1,10 +1,15 @@
 import React from "react";
-import './Card.css'
+import './Card.css' 
+import { TopNavBar,SideNavBar } from "../../pages/components/component-navbar";
 
 const Card = () =>{
   return (
     <div className="content">
+      <TopNavBar/>
+
       <div className="page-content">
+      <SideNavBar/>
+
         <div className="main-content">
           <h1 className="clh1">Cards</h1>
           <p className="description">

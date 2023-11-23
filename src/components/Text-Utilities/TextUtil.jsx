@@ -1,11 +1,17 @@
 import React from 'react'
 import './TextUtil.css'
+import { TopNavBar,SideNavBar } from "../../pages/components/component-navbar";
+
 
 const TextUtils = () =>{
 
   return (
     <div className="content">
+      <TopNavBar/>
+
       <div className="page-content">
+      <SideNavBar/>
+
         <div className="main-content">
           <h1 className="clh1">Text Utilities</h1>
           <p className="description">

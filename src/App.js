@@ -1,10 +1,10 @@
 import {Routes,Route} from 'react-router-dom'
 import './App.css';
 //import './styles.css'
-import './css/main.css'
-import './css/components.css'
+ import './css/main.css'
+// import './css/components.css'
 import { LandingPage,AvatarComponent,InstallationPage,ComponentsListingPage,Alert,Slider,Snackbar,TextUtils,Rating,Card,Grid,Image,Input,Lists,Modal,Navigation,
-  Badge,Button } from './components';
+  Badges,Button } from './components';
 import NavBar from './pages/components/navbar';
 import Footer from './pages/components/footer';
 
@@ -22,9 +22,9 @@ const componentRoutes = [
     route: <AvatarComponent />,
   },
   {
-    name: "Badge",
-    path: "components/badge",
-    route: <Badge />,
+    name: "Badges",
+    path: "components/badges",
+    route: <Badges />,
   },
   {
     name: "Button",
@@ -61,11 +61,11 @@ const componentRoutes = [
     path: "components/lists",
     route: <Lists />,
   },
-  {
-    name: "Modal",
-    path: "components/modal",
-    route: <Modal />,
-  },
+  // {
+  //   name: "Modal",
+  //   path: "components/modal",
+  //   route: <Modal />,
+  // },
   {
     name: "Navigation",
     path: "components/navigation",

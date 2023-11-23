@@ -1,5 +1,7 @@
 import React from "react";
 import './Snackbar.css'
+import { TopNavBar,SideNavBar } from "../../pages/components/component-navbar";
+
 const Snackbar = () =>{
   const showSnackbar = (snackbarElement, duration) => {
     snackbarElement.classList.add('show');
@@ -14,7 +16,11 @@ const Snackbar = () =>{
   
   return (
     <div className="content">
+      <TopNavBar/>
+
       <div className="page-content">
+      <SideNavBar/>
+
         <div className="main-content">
           <h1 className="clh1">Snackbar</h1>
           <p className="description">
