@@ -1,14 +1,14 @@
 import React from "react";
-import './Button.css'
-import { TopNavBar,SideNavBar } from "../../pages/components/component-navbar";
+import "./Button.css";
+import { TopNavBar, SideNavBar } from "../../pages/components/component-navbar";
 
-const Button = () =>{
+const Button = () => {
   return (
     <div className="content">
-      <TopNavBar/>
+      <TopNavBar />
 
       <div className="page-content">
-      <SideNavBar/>
+        <SideNavBar />
 
         <div className="main-content">
           <h1 className="clh1">Buttons</h1>
@@ -33,18 +33,19 @@ const Button = () =>{
                 <button className="btn disabled">Disabled</button>
               </div>
               <div className="code-example-block">
-                {/* <iframe title='unique'
-                  src="https://carbon.now.sh/embed?"
+                <iframe
+                  title="Carbon Embed"
+                  src="https://carbon.now.sh/embed/rpjzNmMOn9TjzXXpxxYR"
                   style={{
-                    margin: 'auto',
-                    width: '100%',
-                    height: '296px',
-                    border: 0,
-                    transform: 'scale(1)',
-                    overflow: 'hidden',
+                    width: "100%",
+                margin: "auto",
+                    height: "316px",
+                    border: "0",
+                    transform: "scale(1)",
+                    overflow: "hidden",
                   }}
                   sandbox="allow-scripts allow-same-origin"
-                ></iframe> */}
+                ></iframe>
               </div>
             </div>
 
@@ -69,18 +70,19 @@ const Button = () =>{
               </div>
 
               <div className="code-example-block">
-                {/* <iframe title='unique'
-                  src="https://carbon.now.sh/embed?"
+                <iframe
+                  title="Carbon Embed"
+                  src="https://carbon.now.sh/embed/VXZ9SLwzykG1GYxYkHCw"
                   style={{
-                    margin: 'auto',
-                    width: '100%',
-                    height: '286px',
-                    border: 0,
-                    transform: 'scale(1)',
-                    overflow: 'hidden',
+                    width: "100%",
+                margin: "auto",
+                    height: "316px",
+                    border: "0",
+                    transform: "scale(1)",
+                    overflow: "hidden",
                   }}
                   sandbox="allow-scripts allow-same-origin"
-                ></iframe> */}
+                ></iframe>
               </div>
             </div>
 
@@ -101,18 +103,19 @@ const Button = () =>{
               </button>
             </div>
             <div className="code-example-block">
-              {/* <iframe title='unique'
-                src="https://carbon.now.sh/embed"
+              <iframe
+                title="Carbon Embed"
+                src="https://carbon.now.sh/embed/OSvC34EJq6RBWcTQ2qSt"
                 style={{
-                  margin: 'auto',
-                  width: '100%',
-                  height: '294px',
-                  border: 0,
-                  transform: 'scale(1)',
-                  overflow: 'hidden',
+                  width: "100%",
+                margin: "auto",
+                  height: "298px",
+                  border: "0",
+                  transform: "scale(1)",
+                  overflow: "hidden",
                 }}
                 sandbox="allow-scripts allow-same-origin"
-              ></iframe> */}
+              ></iframe>
             </div>
           </div>
           <div className="gif-example">
@@ -135,9 +138,5 @@ const Button = () =>{
       </div>
     </div>
   );
-}
-export default Button
-
-
-   
-    
+};
+export default Button;

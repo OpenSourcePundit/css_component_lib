@@ -13,7 +13,7 @@ const TopNavBar = () =>{
     <div class="top-navbar">
         <ul>
           {componentRoutes.map((component)=>{return(
-            <li>{console.log(component.name.toLowerCase())}
+            <li>
             <div className='a' id={component.name.toLowerCase()==active_class?`active`:``} onClick={()=>navigate(`/${component.path}`)}>{component.name}</div>
           </li>
           )})}          
@@ -34,7 +34,7 @@ const SideNavBar = () =>{
     <div className="side-nav">
 <ul>
           {componentRoutes.map((component)=>{return(
-            <li>{console.log(component.name.toLowerCase())}
+            <li>
             <div href="/" className='a' id={component.name.toLowerCase()==active_class?`active`:``} onClick={()=>navigate(`/${component.path}`)}>{component.name}</div>
           </li>
           )})}

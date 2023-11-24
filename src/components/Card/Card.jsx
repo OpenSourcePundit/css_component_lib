@@ -1,21 +1,23 @@
 import React from "react";
-import './Card.css' 
-import { TopNavBar,SideNavBar } from "../../pages/components/component-navbar";
+import "./Card.css";
+import { TopNavBar, SideNavBar } from "../../pages/components/component-navbar";
 
-const Card = () =>{
+const Card = () => {
   return (
     <div className="content">
-      <TopNavBar/>
+      <TopNavBar />
 
       <div className="page-content">
-      <SideNavBar/>
+        <SideNavBar />
 
         <div className="main-content">
           <h1 className="clh1">Cards</h1>
           <p className="description">
-            CSS cards are great for organizing and enhancing a website's user interface. Each card is uniquely designed to
-            make it easy for users to read the card content. CSS cards are great for organizing and enhancing a website's
-            user interface. Each card is uniquely designed to make it easy for users to read the card content.
+            CSS cards are great for organizing and enhancing a website's user
+            interface. Each card is uniquely designed to make it easy for users
+            to read the card content. CSS cards are great for organizing and
+            enhancing a website's user interface. Each card is uniquely designed
+            to make it easy for users to read the card content.
             <br />
             <br />
             Cards contain content and actions about a single subject.
@@ -26,11 +28,18 @@ const Card = () =>{
             <div className="type-one--card">
               <div className="cardcom background">
                 <div className="card">
-                  {/* <img className="card-image-one" src={require("../../assets/avatar/card-image.jpg")} alt="card-image" /> */}
+                  <img
+                    className="card-image-one"
+                    src={require("../../assets/avatar/card-image.jpg")}
+                    alt="card-image"
+                  />
                   <article className="card-text-one">
                     <figcaption>"That's my spot."</figcaption>
                     <h6>- Sheldon Cooper</h6>
-                    <summary>In an ever-changing world it is a single point of consistency.</summary>
+                    <summary>
+                      In an ever-changing world it is a single point of
+                      consistency.
+                    </summary>
                   </article>
                   <footer>
                     <span>Read</span>
@@ -44,15 +53,16 @@ const Card = () =>{
                 </div>
               </div>
               <div className="code-example-block">
-                <iframe title="unique"
-                  src="https://carbon.now.sh/embed/"
+                <iframe
+                  title="Carbon Embed"
+                  src="https://carbon.now.sh/embed/1oXjXNaKreHsKZG11Xi5"
                   style={{
-                    width: '100%',
-                    margin: 'auto',
-                    height: '500px',
-                    border: 0,
-                    transform: 'scale(1)',
-                    overflow: 'hidden',
+                    width: "100%",
+                    margin: "auto",
+                    height: "577px",
+                    border: "0",
+                    transform: "scale(1)",
+                    overflow: "hidden",
                   }}
                   sandbox="allow-scripts allow-same-origin"
                 ></iframe>
@@ -64,7 +74,11 @@ const Card = () =>{
               <div className="cardcom background">
                 <div className="card noshadow">
                   <section>
-                    {/* <img className="card-image-two" src={require("../../assets/avatar/card-image.jpg")} alt="card-image" /> */}
+                    <img
+                      className="card-image-two"
+                      src={require("../../assets/avatar/card-image.jpg")}
+                      alt="card-image"
+                    />
                     <article className="card-text-two">
                       <h3>"That's my spot."</h3>
                       <h5>- Sheldon Cooper</h5>
@@ -82,15 +96,16 @@ const Card = () =>{
                 </div>
               </div>
               <div className="code-example-block">
-                <iframe title="unique"
-                  src="https://carbon.now.sh/embed"
+                <iframe
+                  title="Carbon Embed"
+                  src="https://carbon.now.sh/embed/6dhAPNLE0QTBw9TKmvfH"
                   style={{
-                    margin: 'auto',
-                    width: '100%',
-                    height: '460px',
-                    border: 0,
-                    transform: 'scale(1)',
-                    overflow: 'hidden',
+                    width: "100%",
+                    margin: "auto",
+                    height: "577px",
+                    border: "0",
+                    transform: "scale(1)",
+                    overflow: "hidden",
                   }}
                   sandbox="allow-scripts allow-same-origin"
                 ></iframe>
@@ -102,19 +117,24 @@ const Card = () =>{
               <div className="cardcom white">
                 <div className="card card-badge">
                   <span className="update-badge">Trending!</span>
-                  {/* <img className="card-image" src={require("../../assets/card/card-img1.jpg" )} alt="card-image" /> */}
+                  <img
+                    className="card-image"
+                    src={require("../../assets/card/card-img1.jpg")}
+                    alt="card-image"
+                  />
 
                   <div className="product-detail">
                     <p>GRU INC.</p>
                     <p>Yellow color Happy Minion</p>
                     <span className="rating">
-                      {' '}
+                      {" "}
                       <i className="fas fa-star"></i>4.5
                     </span>
 
                     <div className="footer">
                       <p className="price">
-                        Rs.1098 <span className="old-price">Rs.1598</span> <span className="discount">32%off</span>
+                        Rs.1098 <span className="old-price">Rs.1598</span>{" "}
+                        <span className="discount">32%off</span>
                       </p>
                       <i className="fas fa-heart"></i>
                       <i className="fas fa-share-alt"></i>
@@ -123,15 +143,16 @@ const Card = () =>{
                 </div>
               </div>
               <div className="code-example-block">
-                <iframe title="unique"
-                  src="https://carbon.now.sh/embed"
+                <iframe
+                  title="Carbon Embed"
+                  src="https://carbon.now.sh/embed/TdleOv9zq6SqFLa7GPDq"
                   style={{
-                    width: '100%',
-                    margin: 'auto',
-                    height: '480px',
-                    border: 0,
-                    transform: 'scale(1)',
-                    overflow: 'hidden',
+                    width: "100%",
+                    margin: "auto",
+                    height: "577px",
+                    border: "0",
+                    transform: "scale(1)",
+                    overflow: "hidden",
                   }}
                   sandbox="allow-scripts allow-same-origin"
                 ></iframe>
@@ -143,7 +164,11 @@ const Card = () =>{
               <div className="cardcom white">
                 <div className="card card-badge dismiss">
                   <span className="update-badge">Trending!</span>
-                  {/* <img className="card-image" src={require("../../assets/card/card-img2.jpg")} alt="card-image" /> */}
+                  <img
+                    className="card-image"
+                    src={require("../../assets/card/card-img2.jpg")}
+                    alt="card-image"
+                  />
                   <span className="close">
                     <i className="fas fa-times-circle"></i>
                   </span>
@@ -151,13 +176,14 @@ const Card = () =>{
                     <p>GRU INC.</p>
                     <p>Purple color Devil Minion</p>
                     <span className="rating negative">
-                      {' '}
+                      {" "}
                       <i className="fas fa-star"></i>2.5
                     </span>
 
                     <div className="footer">
                       <p className="price">
-                        Rs.1098 <span className="old-price">Rs.1598</span> <span className="discount">32%off</span>
+                        Rs.1098 <span className="old-price">Rs.1598</span>{" "}
+                        <span className="discount">32%off</span>
                       </p>
                       <i className="fas fa-heart"></i>
                       <i className="fas fa-share-alt"></i>
@@ -167,15 +193,16 @@ const Card = () =>{
                 <button>Bring back</button>
               </div>
               <div className="code-example-block">
-                <iframe title="unique"
-                  src="https://carbon.now.sh/embed"
+                <iframe
+                  title="Carbon Embed"
+                  src="https://carbon.now.sh/embed/AsQGvueSnTtchaodSdPx"
                   style={{
-                    width: '100%',
-                    margin: 'auto',
-                    height: '460px',
-                    border: 0,
-                    transform: 'scale(1)',
-                    overflow: 'hidden',
+                    width: "100%",
+                    margin: "auto",
+                    height: "595px",
+                    border: "0",
+                    transform: "scale(1)",
+                    overflow: "hidden",
                   }}
                   sandbox="allow-scripts allow-same-origin"
                 ></iframe>
@@ -187,19 +214,24 @@ const Card = () =>{
               <div className="cardcom white">
                 <div className="card card-badge cardtext">
                   <span className="update-badge">Trending!</span>
-                  {/* <img className="card-img" src={require("../../assets/card/card-img3.jpg")} alt="card-image" /> */}
+                  <img
+                    className="card-img"
+                    src={require("../../assets/card/card-img3.jpg")}
+                    alt="card-image"
+                  />
                   <div className="product-detail">
                     <p className="text-over">OUT OF STOCK</p>
                     <p>GRU INC.</p>
                     <p>Yellow color Happy Minion</p>
                     <span className="rating">
-                      {' '}
+                      {" "}
                       <i className="fas fa-star"></i>4.5
                     </span>
 
                     <div className="footer">
                       <p className="price">
-                        Rs.1098 <span className="old-price">Rs.1598</span> <span className="discount">32%off</span>
+                        Rs.1098 <span className="old-price">Rs.1598</span>{" "}
+                        <span className="discount">32%off</span>
                       </p>
                       <i className="fas fa-heart"></i>
                       <i className="fas fa-share-alt"></i>
@@ -208,15 +240,16 @@ const Card = () =>{
                 </div>
               </div>
               <div className="code-example-block">
-                <iframe title="unique"
-                  src="https://carbon.now.sh/embed?"
+                <iframe
+                  title="Carbon Embed"
+                  src="https://carbon.now.sh/embed/Nv8oyCxvbFWYdByDqOTm"
                   style={{
-                    width: '100%',
-                    margin: 'auto',
-                    height: '460px',
-                    border: 0,
-                    transform: 'scale(1)',
-                    overflow: 'hidden',
+                    width: "100%",
+                margin: "auto",
+                    height: "595px",
+                    border: "0",
+                    transform: "scale(1)",
+                    overflow: "hidden",
                   }}
                   sandbox="allow-scripts allow-same-origin"
                 ></iframe>
@@ -227,16 +260,21 @@ const Card = () =>{
             <div className="type-one--card remove">
               <div className="cardcom white">
                 <div className="card horizontal">
-                  {/* <img className="card-img" src={require("../../assets/card/card-img4.png")} alt="card-image" /> */}
+                  <img
+                    className="card-img"
+                    src={require("../../assets/card/card-img4.png")}
+                    alt="card-image"
+                  />
                   <div className="product-detail">
                     <p>GRU INC.</p>
                     <p>Valentine's Gift Cat Toy</p>
                     <span className="rating">
-                      {' '}
+                      {" "}
                       <i className="fas fa-star"></i>4.5
                     </span>
                     <p className="price">
-                      Rs.1098 <span className="old-price">Rs.1598</span> <span className="discount">32%off</span>
+                      Rs.1098 <span className="old-price">Rs.1598</span>{" "}
+                      <span className="discount">32%off</span>
                     </p>
                     <div className="footer">
                       <button className="button">
@@ -250,15 +288,16 @@ const Card = () =>{
                 </div>
               </div>
               <div className="code-example-block">
-                <iframe title="unique"
-                  src="https://carbon.now.sh/embed?"
+                <iframe
+                  title="Carbon Embed"
+                  src="https://carbon.now.sh/embed/I5iKmLvcj9YeIGHfaDPP"
                   style={{
-                    width: '100%',
-                    margin: 'auto',
-                    height: '420px',
-                    border: 0,
-                    transform: 'scale(1)',
-                    overflow: 'hidden',
+                    width: "100%",
+                    margin: "auto",
+                    height: "558px",
+                    border: "0",
+                    transform: "scale(1)",
+                    overflow: "hidden",
                   }}
                   sandbox="allow-scripts allow-same-origin"
                 ></iframe>
@@ -267,7 +306,11 @@ const Card = () =>{
 
             <div className="gif-example">
               <h1>How to Use?</h1>
-              {/* <img className="gifs" src={require("../../assets/exampleGifs/cards.gif")} alt="avatar-exaple" /> */}
+              <img
+                className="gifs"
+                src={require("../../assets/exampleGifs/cards.gif")}
+                alt="avatar-exaple"
+              />
             </div>
             <footer className="page-footer">
               <a className="foot-item" href="../Button/Button.html">
@@ -282,7 +325,5 @@ const Card = () =>{
       </div>
     </div>
   );
-}
-export default Card
-
-
+};
+export default Card;

@@ -1,10 +1,8 @@
-import React,{useState} from "react"
-import './Modal.css'
-import { TopNavBar,SideNavBar } from "../../pages/components/component-navbar";
+import React, { useState } from "react";
+import "./Modal.css";
+import { TopNavBar, SideNavBar } from "../../pages/components/component-navbar";
 
-
-
-const Modal = () =>{
+const Modal = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleShowModal = () => {
@@ -17,15 +15,16 @@ const Modal = () =>{
 
   return (
     <div className="content">
-      <TopNavBar/>
+      <TopNavBar />
 
       <div className="page-content">
-      <SideNavBar/>
+        <SideNavBar />
 
         <div className="main-content">
           <h1 className="clh1">Modal</h1>
           <p className="description">
-            A modal is a dialog box/popup window that is displayed on top of the current page: Open Modal.
+            A modal is a dialog box/popup window that is displayed on top of the
+            current page: Open Modal.
             <br />
             <br />
           </p>
@@ -39,10 +38,13 @@ const Modal = () =>{
               {isModalOpen && (
                 <div className="modal">
                   <div className="modal-top">
-                    <i className="fas fa-exclamation-triangle"></i> Are you sure you want to Submit?
+                    <i className="fas fa-exclamation-triangle"></i> Are you sure
+                    you want to Submit?
                   </div>
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora illum necessitatibus officia fugiat repudiandae! Tempore nihil recusandae aperiam dolor facere.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Tempora illum necessitatibus officia fugiat repudiandae!
+                    Tempore nihil recusandae aperiam dolor facere.
                   </p>
                   <button onClick={handleCloseModal} id="close-bottom">
                     Close
@@ -51,40 +53,44 @@ const Modal = () =>{
               )}
             </div>
             <div className="code-example-block">
-              <iframe title="unique"
-                src="https://carbon.now.sh/embed?"
+              <iframe
+                title="Carbon Embed"
+                src="https://carbon.now.sh/embed/sWQf7RKw7Z8RMlOoPBH8"
                 style={{
-                  width: '100%',
-                  margin: 'auto',
-                  height: '360px',
-                  border: '0',
-                  transform: 'scale(1)',
-                  overflow: 'hidden',
+                  width: "100%",
+                  margin: "auto",
+                  height: "447px",
+                  border: "0",
+                  transform: "scale(1)",
+                  overflow: "hidden",
                 }}
                 sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+              ></iframe>
             </div>
             <div className="code-example-block">
               <h3>JavaScript To Be Added</h3>
-              <iframe title="unique"
-                src="https://carbon.now.sh/embed?"
+              <iframe
+                title="Carbon Embed"
+                src="https://carbon.now.sh/embed/NpdtFI9inxilxjrbd8iQ"
                 style={{
-                  width: '100%',
-                  margin: 'auto',
-                  height: '420px',
-                  border: '0',
-                  transform: 'scale(1)',
-                  overflow: 'hidden',
+                  width: "100%",
+                  margin: "auto",
+                  height: "465px",
+                  border: "0",
+                  transform: "scale(1)",
+                  overflow: "hidden",
                 }}
                 sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+              ></iframe>
             </div>
           </div>
           <div className="gif-example">
             <h1>How to Use?</h1>
-            <img className="gifs" src={require("../../assets/exampleGifs/modal.gif")} alt="avatar-exaple" />
+            <img
+              className="gifs"
+              src={require("../../assets/exampleGifs/modal.gif")}
+              alt="avatar-exaple"
+            />
           </div>
           <footer className="page-footer">
             <a className="foot-item" href="../Navigation/Navigation.html">
@@ -98,8 +104,5 @@ const Modal = () =>{
       </div>
     </div>
   );
-}
-export default Modal
-
-
-   
+};
+export default Modal;

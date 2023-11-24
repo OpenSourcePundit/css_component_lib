@@ -1,14 +1,14 @@
-import React from "react"
-import './Input.css'
-import { TopNavBar,SideNavBar } from "../../pages/components/component-navbar";
+import React from "react";
+import "./Input.css";
+import { TopNavBar, SideNavBar } from "../../pages/components/component-navbar";
 
-const Input = () =>{
+const Input = () => {
   return (
     <div className="content">
-      <TopNavBar/>
+      <TopNavBar />
 
       <div className="page-content">
-      <SideNavBar/>
+        <SideNavBar />
 
         <div className="main-content">
           <h1 className="clh1">Inputs</h1>
@@ -46,18 +46,19 @@ const Input = () =>{
             </div>
 
             <div className="code-example-block">
-              <iframe title="unique"
-                src="https://carbon.now.sh/embed?"
+              <iframe
+                title="Carbon Embed"
+                src="https://carbon.now.sh/embed/kwm2tAAtRo83zH8S48Ez"
                 style={{
-                  margin: 'auto',
-                  width: '100%',
-                  height: '250px',
-                  border: '0',
-                  transform: 'scale(1)',
-                  overflow: 'hidden',
+                  width: "100%",
+                  margin: "auto",
+                  height: "353px",
+                  border: "0",
+                  transform: "scale(1)",
+                  overflow: "hidden",
                 }}
                 sandbox="allow-scripts allow-same-origin"
-              />
+              ></iframe>
             </div>
           </div>
 
@@ -65,8 +66,7 @@ const Input = () =>{
             <h4 className="clh4">Validation Inputs</h4>
             <small>
               Validation Inputs provide validation about being a
-              success/failure/warning based on some predefined
-              conditions.
+              success/failure/warning based on some predefined conditions.
             </small>
             <div className="type-error--input two">
               <small>Error</small>
@@ -89,18 +89,19 @@ const Input = () =>{
             </div>
 
             <div className="code-example-block">
-              <iframe title="unique"
-                src="https://carbon.now.sh/embed?"
+              <iframe
+                title="Carbon Embed"
+                src="https://carbon.now.sh/embed/0LivVQ1lAGcpRIF3zSYv"
                 style={{
-                  margin: 'auto',
-                  width: '100%',
-                  height: '270px',
-                  border: '0',
-                  transform: 'scale(1)',
-                  overflow: 'hidden',
+                  width: "100%",
+                margin: "auto",
+                  height: "372px",
+                  border: "0",
+                  transform: "scale(1)",
+                  overflow: "hidden",
                 }}
                 sandbox="allow-scripts allow-same-origin"
-              />
+              ></iframe>
             </div>
           </div>
 
@@ -108,7 +109,11 @@ const Input = () =>{
             <h4 className="clh4"> Input with Icons</h4>
             <div className="type-three--input">
               <i className="fa fa-user icon"></i>
-              <input type="text" placeholder="Your Name" className="input person" />
+              <input
+                type="text"
+                placeholder="Your Name"
+                className="input person"
+              />
             </div>
             <div className="type-three--input">
               <i className="fas fa-briefcase"></i>
@@ -128,18 +133,19 @@ const Input = () =>{
             </div>
 
             <div className="code-example-block">
-              <iframe title="unique"
-                src="https://carbon.now.sh/embed?"
+              <iframe
+                title="Carbon Embed"
+                src="https://carbon.now.sh/embed/HPR6XH4ql1tvskbU4IQJ"
                 style={{
-                  margin: 'auto',
-                  width: '100%',
-                  height: '320px',
-                  border: '0',
-                  transform: 'scale(1)',
-                  overflow: 'hidden',
+                  width: "100%",
+                  margin: "auto",
+                  height: "409px",
+                  border: "0",
+                  transform: "scale(1)",
+                  overflow: "hidden",
                 }}
                 sandbox="allow-scripts allow-same-origin"
-              />
+              ></iframe>
             </div>
           </div>
 
@@ -152,40 +158,46 @@ const Input = () =>{
                 className="input person"
               ></textarea>
               <div className="text-icons">
-                <i className="fas fa-smile"></i><i className="fas fa-paper-plane"></i>
+                <i className="fas fa-smile"></i>
+                <i className="fas fa-paper-plane"></i>
               </div>
             </div>
 
             <div className="code-example-block">
-              <iframe title="unique"
-                src="https://carbon.now.sh/embed?"
+              <iframe
+                title="Carbon Embed"
+                src="https://carbon.now.sh/embed/X4qq9G957jXQkAycLhmP"
                 style={{
-                  margin: 'auto',
-                  width: '100%',
-                  height: '260px',
-                  border: '0',
-                  transform: 'scale(1)',
-                  overflow: 'hidden',
+                  width: "100%",
+                margin: "auto",
+                  height: "335px",
+                  border: "0",
+                  transform: "scale(1)",
+                  overflow: "hidden",
                 }}
                 sandbox="allow-scripts allow-same-origin"
-              />
+              ></iframe>
             </div>
           </div>
           <div className="gif-example">
             <h1>How to Use?</h1>
-            <img className="gifs" src={require("../../assets/exampleGifs/input.gif")} alt="avatar-exaple"/>
+            <img
+              className="gifs"
+              src={require("../../assets/exampleGifs/input.gif")}
+              alt="avatar-exaple"
+            />
           </div>
           <footer className="page-footer">
-            <a className="foot-item" href="../Image/Image.html"><i className="far fa-hand-point-left"></i>Image</a>
-            <a className="foot-item" href="../Text-Utilities/TextUtil.html">Text Utils<i className="far fa-hand-point-right"></i></a>
+            <a className="foot-item" href="../Image/Image.html">
+              <i className="far fa-hand-point-left"></i>Image
+            </a>
+            <a className="foot-item" href="../Text-Utilities/TextUtil.html">
+              Text Utils<i className="far fa-hand-point-right"></i>
+            </a>
           </footer>
         </div>
       </div>
     </div>
   );
-}
-export default Input
-
-
-
-
+};
+export default Input;

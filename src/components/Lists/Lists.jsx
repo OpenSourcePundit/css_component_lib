@@ -1,20 +1,21 @@
-import React from "react"
-import './Lists.css'
-import { TopNavBar,SideNavBar } from "../../pages/components/component-navbar";
+import React from "react";
+import "./Lists.css";
+import { TopNavBar, SideNavBar } from "../../pages/components/component-navbar";
 
-
-const Lists = () =>{
+const Lists = () => {
   return (
     <div className="content">
-      <TopNavBar/>
+      <TopNavBar />
 
       <div className="page-content">
-      <SideNavBar/>
+        <SideNavBar />
 
         <div className="main-content">
           <h1 className="clh1">Lists</h1>
           <p className="description">
-            The CSS list properties allow you to: Set different list item markers for ordered lists. Set different list item markers for unordered lists.
+            The CSS list properties allow you to: Set different list item
+            markers for ordered lists. Set different list item markers for
+            unordered lists.
             <br />
             <br />
           </p>
@@ -43,10 +44,19 @@ const Lists = () =>{
               </ol>
             </div>
             <div className="code-example-block">
-              <iframe title="unique"
-                src="https://carbon.now.sh/embed?"
+              <iframe
+                title="Carbon Embed"
+                src="https://carbon.now.sh/embed/eGMm6vTA7NZNKFpArqUA"
+                style={{
+                  width: "100%",
+                margin: "auto",
+                  height: "391px",
+                  border: "0",
+                  transform: "scale(1)",
+                  overflow: "hidden",
+                }}
                 sandbox="allow-scripts allow-same-origin"
-              />
+              ></iframe>
             </div>
           </div>
 
@@ -68,11 +78,19 @@ const Lists = () =>{
               </ul>
             </div>
             <div className="code-example-block">
-              <iframe title="unique"
-                src="https://carbon.now.sh/embed?"
-                style={{ width: '100%', margin: 'auto', height: '300px', border: '0', transform: 'scale(1)', overflow: 'hidden' }}
+              <iframe
+                title="Carbon Embed"
+                src="https://carbon.now.sh/embed/4wWjtYGCGvQVGo9TX1W7"
+                style={{
+                  width: "100%",
+                  margin: "auto",
+                  height: "335px",
+                  border: "0",
+                  transform: "scale(1)",
+                  overflow: "hidden",
+                }}
                 sandbox="allow-scripts allow-same-origin"
-              />
+              ></iframe>
             </div>
           </div>
 
@@ -84,58 +102,76 @@ const Lists = () =>{
                 <li>
                   <div className="inner">
                     <img
-                      src={require("https://cdn.zivame.com/intl/assets/icons/faces300.png")}
+                      src="https://cdn.zivame.com/intl/assets/icons/faces300.png"
                       alt="notif-img"
                       className="notif-img"
                     />
-                    Knock Knock! Tell us how you feel about your recent purchase.
+                    Knock Knock! Tell us how you feel about your recent
+                    purchase.
                   </div>
                   <small>20 Jan, 2021</small>
                 </li>
                 <li>
                   <div className="inner">
                     <img
-                      src={require("https://cdn.zivame.com/live/images/imgpsh_fullsize.png")}
+                      src="https://cdn.zivame.com/live/images/imgpsh_fullsize.png"
                       alt="notif-img"
                       className="notif-img"
                     />
-                    Hi Gorgeous! You have entered the Circle in our loyalty program - Circle Of Radiance!
+                    Hi Gorgeous! You have entered the Circle in our loyalty
+                    program - Circle Of Radiance!
                   </div>
                   <small>20 Mar, 2020</small>
                 </li>
                 <li>
                   <div className="inner">
                     <img
-                      src={require("https://rukminim1.flixcart.com/flap/50/50/image/b42372f365fcf579.jpg?q=90")}
+                      src="https://rukminim1.flixcart.com/flap/50/50/image/b42372f365fcf579.jpg?q=90"
                       alt="notif-img"
                       className="notif-img"
                     />
-                    Feeling lucky? Use your SuperCoins now to play daily jackpot & win exciting gift vouchers today!
+                    Feeling lucky? Use your SuperCoins now to play daily jackpot
+                    & win exciting gift vouchers today!
                   </div>
                   <small>20 Jan, 2022</small>
                 </li>
               </ul>
             </div>
             <div className="code-example-block">
-              <iframe title="unique"
-                src="https://carbon.now.sh/embed?"
-                style={{ width: '100%', margin: 'auto', height: '360px', border: '0', transform: 'scale(1)', overflow: 'hidden' }}
+              <iframe
+                title="Carbon Embed"
+                src="https://carbon.now.sh/embed/SwwzwYyAI4wfP6tznBJD"
+                style={{
+                  width: "100%",
+                  margin: "auto",
+                  height: "447px",
+                  border: "0",
+                  transform: "scale(1)",
+                  overflow: "hidden",
+                }}
                 sandbox="allow-scripts allow-same-origin"
-              />
+              ></iframe>
             </div>
           </div>
           <div className="gif-example">
             <h1>How to Use?</h1>
-            <img className="gifs" src={require("../../assets/exampleGifs/lists.gif")} alt="avatar-exaple" />
+            <img
+              className="gifs"
+              src={require("../../assets/exampleGifs/lists.gif")}
+              alt="avatar-exaple"
+            />
           </div>
           <footer className="page-footer">
-            <a className="foot-item" href="../Text-Utilities/TextUtil.html"><i className="far fa-hand-point-left"></i>Text Utils</a>
-            <a className="foot-item" href="../Navigation/Navigation.html">Navigation<i className="far fa-hand-point-right"></i></a>
+            <a className="foot-item" href="../Text-Utilities/TextUtil.html">
+              <i className="far fa-hand-point-left"></i>Text Utils
+            </a>
+            <a className="foot-item" href="../Navigation/Navigation.html">
+              Navigation<i className="far fa-hand-point-right"></i>
+            </a>
           </footer>
         </div>
       </div>
     </div>
   );
-}
-export default Lists
-
+};
+export default Lists;

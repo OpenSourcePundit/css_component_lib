@@ -217,7 +217,6 @@ main {
 }
 
 .component-listing{
-  border: 1px solid blue;
   display: flex;
   min-height: 73vh;
   width: 100%;

@@ -16,10 +16,11 @@ const InstallationPage = () => {
           <div className="code-example-block">
             <iframe
               title="unique"
-              src="https://carbon.now.sh/embed/f8TkPOSoqlYEC2f8XApn"
+              src="https://carbon.now.sh/embed/A1tkuIbhnMheqgn3C3O3"
               style={{
-                width: "822px",
-                height: "207px",
+                width: "100%",
+                margin: "auto",
+                height: "307px",
                 border: "0",
                 transform: "scale(1)",
                 overflow: "hidden",
@@ -35,7 +36,7 @@ const InstallationPage = () => {
           <div className="code-example-block">
             <iframe
               title="unique"
-              src="https://carbon.now.sh/embed/ip6vr9Nh8U1D1aJMSbOV"
+              src="https://carbon.now.sh/embed/yZ3UFpK43xKFBjFu1ukJ"
               style={{
                 width: "100%",
                 margin: "auto",
@@ -46,6 +47,8 @@ const InstallationPage = () => {
               }}
               sandbox="allow-scripts allow-same-origin"
             ></iframe>
+
+
           </div>
           <footer className="page-footer">
             <div1 onClick={()=>navigate('/')} className="foot-item a" >

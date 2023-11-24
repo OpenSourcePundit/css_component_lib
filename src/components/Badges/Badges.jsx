@@ -1,14 +1,14 @@
-import React from "react"
-import './Badges.css'
-import { TopNavBar,SideNavBar } from "../../pages/components/component-navbar";
+import React from "react";
+import "./Badges.css";
+import { TopNavBar, SideNavBar } from "../../pages/components/component-navbar";
 
-const Badges = () =>{
+const Badges = () => {
   return (
     <div className="content">
-      <TopNavBar/>
+      <TopNavBar />
 
       <div className="page-content">
-      <SideNavBar/>
+        <SideNavBar />
 
         <div className="main-content">
           <h1 className="clh1">Badges</h1>
@@ -34,7 +34,19 @@ const Badges = () =>{
               <span className="badge two">1</span>
             </div>
             <div className="code-example-block">
-              {/* Example iframe 1 */}
+              <iframe
+                title="Carbon Embed"
+                src="https://carbon.now.sh/embed/a21Z7WRWQCqAywnOJ4BN"
+                style={{
+                  width: "100%",
+                margin: "auto",
+                  height: "223px",
+                  border: "0",
+                  transform: "scale(1)",
+                  overflow: "hidden",
+                }}
+                sandbox="allow-scripts allow-same-origin"
+              ></iframe>
             </div>
 
             <div className="child">
@@ -50,7 +62,19 @@ const Badges = () =>{
             </div>
 
             <div className="code-example-block">
-              {/* Example iframe 2 */}
+              <iframe
+                title="Carbon Embed"
+                src="https://carbon.now.sh/embed/CVEvRaYOoNd9B0z0oBf8"
+                style={{
+                  width: "100%",
+                margin: "auto",
+                  height: "242px",
+                  border: "0",
+                  transform: "scale(1)",
+                  overflow: "hidden",
+                }}
+                sandbox="allow-scripts allow-same-origin"
+              ></iframe>
             </div>
 
             <div className="child">
@@ -70,7 +94,19 @@ const Badges = () =>{
             </div>
 
             <div className="code-example-block">
-              {/* Example iframe 3 */}
+              <iframe
+                title="Carbon Embed"
+                src="https://carbon.now.sh/embed/9vie6V2jymoFiEpdLW53"
+                style={{
+                  width: "100%",
+                margin: "auto",
+                  height: "298px",
+                  border: "0",
+                  transform: "scale(1)",
+                  overflow: "hidden",
+                }}
+                sandbox="allow-scripts allow-same-origin"
+              ></iframe>
             </div>
           </div>
           <footer className="page-footer">
@@ -85,9 +121,5 @@ const Badges = () =>{
       </div>
     </div>
   );
-}
-export default Badges
-
-
-   
-
+};
+export default Badges;

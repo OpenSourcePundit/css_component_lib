@@ -1,30 +1,32 @@
 import React from "react";
-import './Snackbar.css'
-import { TopNavBar,SideNavBar } from "../../pages/components/component-navbar";
+import "./Snackbar.css";
+import { TopNavBar, SideNavBar } from "../../pages/components/component-navbar";
 
-const Snackbar = () =>{
+const Snackbar = () => {
   const showSnackbar = (snackbarElement, duration) => {
-    snackbarElement.classList.add('show');
+    snackbarElement.classList.add("show");
     setTimeout(() => {
-      snackbarElement.classList.remove('show');
+      snackbarElement.classList.remove("show");
     }, duration);
   };
 
   const hideSnackbar = (snackbarElement) => {
-    snackbarElement.classList.remove('show');
+    snackbarElement.classList.remove("show");
   };
-  
+
   return (
     <div className="content">
-      <TopNavBar/>
+      <TopNavBar />
 
       <div className="page-content">
-      <SideNavBar/>
+        <SideNavBar />
 
         <div className="main-content">
           <h1 className="clh1">Snackbar</h1>
           <p className="description">
-            The Snackbar/Toast/Notify component is like an alert box that is only shown for a couple of seconds when something happens (i.e. when the user clicks on a button, submits a form, etc.).
+            The Snackbar/Toast/Notify component is like an alert box that is
+            only shown for a couple of seconds when something happens (i.e. when
+            the user clicks on a button, submits a form, etc.).
             <br />
             <br />
           </p>
@@ -33,16 +35,53 @@ const Snackbar = () =>{
           <div className="section section--type-one">
             <h4 className="clh4">Bottom Snackbar</h4>
             <div className="type-one-snackbar">
-              <button id="btn-bottom" onClick={() => showSnackbar(document.querySelector('#bottom-snackbar'), 3000)}>
+              <button
+                id="btn-bottom"
+                onClick={() =>
+                  showSnackbar(document.querySelector("#bottom-snackbar"), 3000)
+                }
+              >
                 Show
               </button>
               <div id="bottom-snackbar" className="snackbar bottom">
                 This notif will go in 3 Seconds
-                <i id="close-bottom" className="fas fa-times-circle" onClick={() => hideSnackbar(document.querySelector('#bottom-snackbar'))}></i>
+                <i
+                  id="close-bottom"
+                  className="fas fa-times-circle"
+                  onClick={() =>
+                    hideSnackbar(document.querySelector("#bottom-snackbar"))
+                  }
+                ></i>
               </div>
             </div>
             <div className="code-example-block">
+              <iframe
+                title="Carbon Embed"
+                src="https://carbon.now.sh/embed/u0kIK34Kj8BtZjkrty8l"
+                style={{
+                  width: "100%",
+                margin: "auto",
+                  height: "316px",
+                  border: "0",
+                  transform: "scale(1)",
+                  overflow: "hidden",
+                }}
+                sandbox="allow-scripts allow-same-origin"
+              ></iframe>
               {/* JS code to be added */}
+              <iframe
+                title="Carbon Embed"
+                src="https://carbon.now.sh/embed/9Q4TBOrPqzwectcksGQT"
+                style={{
+                  width: "100%",
+                margin: "auto",
+                  height: "502px",
+                  border: "0",
+                  transform: "scale(1)",
+                  overflow: "hidden",
+                }}
+                sandbox="allow-scripts allow-same-origin"
+              ></iframe>
             </div>
           </div>
 
@@ -50,33 +89,76 @@ const Snackbar = () =>{
           <div className="section section--type-one">
             <h4 className="clh4">Top Snackbar</h4>
             <div className="type-one-snackbar">
-              <button id="btn-top" onClick={() => showSnackbar(document.querySelector('#top-snackbar'), 5000)}>
+              <button
+                id="btn-top"
+                onClick={() =>
+                  showSnackbar(document.querySelector("#top-snackbar"), 5000)
+                }
+              >
                 Show
               </button>
               <div id="top-snackbar" className="snackbar top">
                 This notif will go in 5 Seconds
-                <i id="close-top" className="fas fa-times-circle" onClick={() => hideSnackbar(document.querySelector('#top-snackbar'))}></i>
+                <i
+                  id="close-top"
+                  className="fas fa-times-circle"
+                  onClick={() =>
+                    hideSnackbar(document.querySelector("#top-snackbar"))
+                  }
+                ></i>
               </div>
             </div>
             <div className="code-example-block">
+              <iframe
+                title="Carbon Embed"
+                src="https://carbon.now.sh/embed/i22kOzvrX7DlG7Yo9d4d"
+                style={{
+                  width: "100%",
+                margin: "auto",
+                  height: "316px",
+                  border: "0",
+                  transform: "scale(1)",
+                  overflow: "hidden",
+                }}
+                sandbox="allow-scripts allow-same-origin"
+              ></iframe>
               {/* JS code to be added */}
+              <iframe
+                title="Carbon Embed"
+                src="https://carbon.now.sh/embed/uFo8gnPbgMkYCcRVRt8H"
+                style={{
+                  width: "100%",
+                  margin: "auto",
+                  height: "484px",
+                  border: "0",
+                  transform: "scale(1)",
+                  overflow: "hidden",
+                }}
+                sandbox="allow-scripts allow-same-origin"
+              ></iframe>
             </div>
           </div>
 
           <div className="gif-example">
             <h1>How to Use?</h1>
-            <img className="gifs" src={require("../../assets/exampleGifs/snackbar.gif")} alt="avatar-exaple"/>
+            <img
+              className="gifs"
+              src={require("../../assets/exampleGifs/snackbar.gif")}
+              alt="avatar-exaple"
+            />
           </div>
 
           <footer className="page-footer">
-            <div className="foot-item a" href="../Rating/Rating.html"><i className="far fa-hand-point-left"></i>Ratings</div>
-            <div className="foot-item a" href="../Grid/Grid.html">Grids<i className="far fa-hand-point-right"></i></div>
+            <div className="foot-item a" href="../Rating/Rating.html">
+              <i className="far fa-hand-point-left"></i>Ratings
+            </div>
+            <div className="foot-item a" href="../Grid/Grid.html">
+              Grids<i className="far fa-hand-point-right"></i>
+            </div>
           </footer>
         </div>
       </div>
     </div>
   );
-}
-export default Snackbar
-
-
+};
+export default Snackbar;

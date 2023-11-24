@@ -1,14 +1,14 @@
-import React from "react"
-import './Alert.css'
-import { TopNavBar,SideNavBar } from "../../pages/components/component-navbar";
+import React from "react";
+import "./Alert.css";
+import { TopNavBar, SideNavBar } from "../../pages/components/component-navbar";
 
-const Alert = () =>{
+const Alert = () => {
   return (
     <div className="content">
-      <TopNavBar/>
+      <TopNavBar />
 
       <div className="page-content">
-      <SideNavBar/>
+        <SideNavBar />
 
         <div className="main-content">
           <h1 className="clh1">Alerts</h1>
@@ -21,48 +21,109 @@ const Alert = () =>{
 
           <div className="section section--type-one">
             <h4 className="clh4">Basic Alerts</h4>
-            <small>The alert offers four severity levels that set a distinctive icon and color.</small>
+            <small>
+              The alert offers four severity levels that set a distinctive icon
+              and color.
+            </small>
             <div className="type-one--alert">
               <div className="alert error">
-                <i className="fas fa-exclamation-circle"></i>This is an error alert -- check it out
+                <i className="fas fa-exclamation-circle"></i>This is an error
+                alert -- check it out
               </div>
 
               <div className="alert warning">
-                <i className="fas fa-exclamation-triangle"></i>This is a Warning alert -- check it out
+                <i className="fas fa-exclamation-triangle"></i>This is a Warning
+                alert -- check it out
               </div>
               <div className="alert info">
-                <i className="fas fa-info-circle"></i>This is an Info alert -- check it out
+                <i className="fas fa-info-circle"></i>This is an Info alert --
+                check it out
               </div>
               <div className="alert success">
-                <i className="fas fa-check-double"></i>This is a Success alert -- check it out
+                <i className="fas fa-check-double"></i>This is a Success alert
+                -- check it out
               </div>
             </div>
-            {/* You can replace the iframes with React components or use them as needed */}
             <div className="code-example-block">
-              {/* Example iframe 1 */}
+              <iframe
+                title="unique"
+                src="https://carbon.now.sh/embed/ZSkvpSCWDdLVqETAm4Z8"
+                style={{
+                  width: "100%",
+                margin: "auto",
+                  height: "242px",
+                  border: "0",
+                  transform: "scale(1)",
+                  overflow: "hidden",
+                }}
+                sandbox="allow-scripts allow-same-origin"
+              ></iframe>
             </div>
             <div className="code-example-block">
-              {/* Example iframe 2 */}
+              <iframe
+                title="Carbon Embed"
+                src="https://carbon.now.sh/embed/9xsgpyUvdQsUKkcGvd7B"
+                style={{
+                  width: "100%",
+                margin: "auto",
+                  height: "242px",
+                  border: "0",
+                  transform: "scale(1)",
+                  overflow: "hidden",
+                }}
+                sandbox="allow-scripts allow-same-origin"
+              ></iframe>
             </div>
             <div className="code-example-block">
-              {/* Example iframe 3 */}
+              <iframe
+                title="Carbon Embed"
+                src="https://carbon.now.sh/embed/9gpc8ntNzpBnKlA6idg3"
+                style={{
+                  width: "100%",
+                margin: "auto",
+                  height: "242px",
+                  border: "0",
+                  transform: "scale(1)",
+                  overflow: "hidden",
+                }}
+                sandbox="allow-scripts allow-same-origin"
+              ></iframe>
             </div>
             <div className="code-example-block">
-              {/* Example iframe 4 */}
+              <iframe
+                title="Carbon Embed"
+                src="https://carbon.now.sh/embed/6KFc3CJzy9DRPfTwCI5V"
+                style={{
+                  width: "100%",
+                margin: "auto",
+                  height: "242px",
+                  border: "0",
+                  transform: "scale(1)",
+                  overflow: "hidden",
+                }}
+                sandbox="allow-scripts allow-same-origin"
+              ></iframe>
             </div>
           </div>
           <div className="gif-example">
             <h1>How to Use?</h1>
-            <img className="gifs" src={require("../../assets/exampleGifs/Alert.gif")} alt="avatar-exaple" />
+            <img
+              className="gifs"
+              src={require("../../assets/exampleGifs/Alert.gif")}
+              alt="avatar-exaple"
+            />
           </div>
           <footer className="page-footer">
-            <a className="foot-item" href="../Avatar/Avatar.html"><i className="far fa-hand-point-left"></i>Avatar</a>
-            <a className="foot-item" href="../Badges/Badges.html">Badge<i className="far fa-hand-point-right"></i></a>
+            <a className="foot-item" href="../Avatar/Avatar.html">
+              <i className="far fa-hand-point-left"></i>Avatar
+            </a>
+            <a className="foot-item" href="../Badges/Badges.html">
+              Badge<i className="far fa-hand-point-right"></i>
+            </a>
           </footer>
         </div>
       </div>
     </div>
   );
-}
-export default Alert
-  
+};
+export default Alert;

@@ -1,21 +1,21 @@
 import React from "react";
-import './Rating.css'
-import "../../styles.css"
-import { TopNavBar,SideNavBar } from "../../pages/components/component-navbar";
+import "./Rating.css";
+import "../../styles.css";
+import { TopNavBar, SideNavBar } from "../../pages/components/component-navbar";
 
-
-const Rating = () =>{
+const Rating = () => {
   return (
     <div className="content">
-      <TopNavBar/>
+      <TopNavBar />
 
       <div className="page-content">
-      <SideNavBar/>
-        
+        <SideNavBar />
+
         <div className="main-content">
           <h1 className="clh1">Ratings</h1>
           <p className="description">
-            Ratings and reviews also help customers understand how a product works in real life before they purchase it.
+            Ratings and reviews also help customers understand how a product
+            works in real life before they purchase it.
             <br />
             <br />
           </p>
@@ -32,6 +32,20 @@ const Rating = () =>{
                 <i className="fas fa-star"></i>4.5
               </span>
             </div>
+
+            <iframe
+              title="Carbon Embed"
+              src="https://carbon.now.sh/embed/7xB9M0nZC980BoFQgJrj"
+              style={{
+                width: "100%",
+                margin: "auto",
+                height: "223px",
+                border: "0",
+                transform: "scale(1)",
+                overflow: "hidden",
+              }}
+              sandbox="allow-scripts allow-same-origin"
+            ></iframe>
 
             {/* Rate Us */}
             <h4 className="clh4">Rate Us!</h4>
@@ -50,11 +64,28 @@ const Rating = () =>{
               <i className="far fa-frown lg"></i>
               <i className="far fa-angry lg"></i>
             </div>
+            <iframe
+              title="Carbon Embed"
+              src="https://carbon.now.sh/embed/WGQC9HC5xVCFrbwYVl8V"
+              style={{
+                width: "100%",
+                margin: "auto",
+                height: "447px",
+                border: "0",
+                transform: "scale(1)",
+                overflow: "hidden",
+              }}
+              sandbox="allow-scripts allow-same-origin"
+            ></iframe>
           </div>
 
           <div className="gif-example">
             <h1>How to Use?</h1>
-            <img className="gifs" src={require("../../assets/exampleGifs/rating.gif")} alt="avatar-exaple" />
+            <img
+              className="gifs"
+              src={require("../../assets/exampleGifs/rating.gif")}
+              alt="avatar-exaple"
+            />
           </div>
 
           <footer className="page-footer">
@@ -69,6 +100,5 @@ const Rating = () =>{
       </div>
     </div>
   );
-}
-export default Rating
-
+};
+export default Rating;
