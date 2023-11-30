@@ -1,6 +1,7 @@
 import React from "react";
 import "./Snackbar.css";
 import { TopNavBar, SideNavBar } from "../../pages/components/component-navbar";
+import { ComponentFooter } from "../../pages/components/component-footer";
 
 const Snackbar = () => {
   const showSnackbar = (snackbarElement, duration) => {
@@ -139,23 +140,8 @@ const Snackbar = () => {
             </div>
           </div>
 
-          <div className="gif-example">
-            <h1>How to Use?</h1>
-            <img
-              className="gifs"
-              src={require("../../assets/exampleGifs/snackbar.gif")}
-              alt="avatar-exaple"
-            />
-          </div>
-
-          <footer className="page-footer">
-            <div className="foot-item a" href="../Rating/Rating.html">
-              <i className="far fa-hand-point-left"></i>Ratings
-            </div>
-            <div className="foot-item a" href="../Grid/Grid.html">
-              Grids<i className="far fa-hand-point-right"></i>
-            </div>
-          </footer>
+        
+         <ComponentFooter/>
         </div>
       </div>
     </div>

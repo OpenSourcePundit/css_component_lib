@@ -1,6 +1,7 @@
 import React from "react";
 import "./Badges.css";
 import { TopNavBar, SideNavBar } from "../../pages/components/component-navbar";
+import { ComponentFooter } from "../../pages/components/component-footer";
 
 const Badges = () => {
   return (
@@ -109,14 +110,7 @@ const Badges = () => {
               ></iframe>
             </div>
           </div>
-          <footer className="page-footer">
-            <a className="foot-item" href="../Alert/Alert.html">
-              <i className="far fa-hand-point-left"></i>Alert
-            </a>
-            <a className="foot-item" href="../Button/Button.html">
-              Buttons<i className="far fa-hand-point-right"></i>
-            </a>
-          </footer>
+          <ComponentFooter/>
         </div>
       </div>
     </div>

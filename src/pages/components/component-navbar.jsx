@@ -10,7 +10,7 @@ const TopNavBar = () =>{
   const active_class = ActiveNav.pathname.split('/')[2]
 
  return(
-    <div class="top-navbar">
+    <div className="top-navbar">
         <ul>
           {componentRoutes.map((component)=>{return(
             <li>

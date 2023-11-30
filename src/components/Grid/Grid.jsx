@@ -1,6 +1,7 @@
 import React from "react";
 import "./Grid.css";
 import { TopNavBar, SideNavBar } from "../../pages/components/component-navbar";
+import { ComponentFooter } from "../../pages/components/component-footer";
 
 const Grid = () => {
   return (
@@ -105,22 +106,8 @@ const Grid = () => {
               ></iframe>
             </div>
           </div>
-          <div className="gif-example">
-            <h1>How to Use?</h1>
-            <img
-              className="gifs"
-              src={require("../../assets/exampleGifs/grids.gif")}
-              alt="avatar-exaple"
-            />
-          </div>
-          <footer className="page-footer">
-            <a className="foot-item" href="../Snackbar/Snackbar.html">
-              <i className="far fa-hand-point-left"></i>Snackbar
-            </a>
-            <a className="foot-item" href="../Slider/Slider.html">
-              Slider<i className="far fa-hand-point-right"></i>
-            </a>
-          </footer>
+         
+          <ComponentFooter/>
         </div>
       </div>
     </div>

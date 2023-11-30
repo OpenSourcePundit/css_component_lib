@@ -16,7 +16,7 @@ const InstallationPage = () => {
           <div className="code-example-block">
             <iframe
               title="unique"
-              src="https://carbon.now.sh/embed/A1tkuIbhnMheqgn3C3O3"
+              src="https://carbon.now.sh/7adUEiFSVfMhKcX0qftK"
               style={{
                 width: "100%",
                 margin: "auto",

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Card.css";
 import { TopNavBar, SideNavBar } from "../../pages/components/component-navbar";
+import { ComponentFooter } from "../../pages/components/component-footer";
 
 const Card = () => {
   return (
@@ -304,22 +305,8 @@ const Card = () => {
               </div>
             </div>
 
-            <div className="gif-example">
-              <h1>How to Use?</h1>
-              <img
-                className="gifs"
-                src={require("../../assets/exampleGifs/cards.gif")}
-                alt="avatar-exaple"
-              />
-            </div>
-            <footer className="page-footer">
-              <a className="foot-item" href="../Button/Button.html">
-                <i className="far fa-hand-point-left"></i>Buttons
-              </a>
-              <a className="foot-item" href="../Image/Image.html">
-                Image<i className="far fa-hand-point-right"></i>
-              </a>
-            </footer>
+           
+            <ComponentFooter/>
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Input.css";
 import { TopNavBar, SideNavBar } from "../../pages/components/component-navbar";
+import { ComponentFooter } from "../../pages/components/component-footer";
 
 const Input = () => {
   return (
@@ -179,22 +180,8 @@ const Input = () => {
               ></iframe>
             </div>
           </div>
-          <div className="gif-example">
-            <h1>How to Use?</h1>
-            <img
-              className="gifs"
-              src={require("../../assets/exampleGifs/input.gif")}
-              alt="avatar-exaple"
-            />
-          </div>
-          <footer className="page-footer">
-            <a className="foot-item" href="../Image/Image.html">
-              <i className="far fa-hand-point-left"></i>Image
-            </a>
-            <a className="foot-item" href="../Text-Utilities/TextUtil.html">
-              Text Utils<i className="far fa-hand-point-right"></i>
-            </a>
-          </footer>
+         
+          <ComponentFooter/>
         </div>
       </div>
     </div>

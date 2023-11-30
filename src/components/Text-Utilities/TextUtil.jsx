@@ -1,6 +1,7 @@
 import React from "react";
 import "./TextUtil.css";
 import { TopNavBar, SideNavBar } from "../../pages/components/component-navbar";
+import {ComponentFooter} from '../../pages/components/component-footer'
 
 const TextUtils = () => {
   return (
@@ -141,23 +142,10 @@ const TextUtils = () => {
             </div>
           </div>
 
-          <div className="gif-example">
-            <h1>How to Use?</h1>
-            <img
-              className="gifs"
-              src={require("../../assets/exampleGifs/TextUtils.gif")}
-              alt="avatar-exaple"
-            />
-          </div>
+          
+          <ComponentFooter/>
 
-          <footer className="page-footer">
-            <div className="foot-item a" href="../Input/Input.html">
-              <i className="far fa-hand-point-left"></i>Input
-            </div>
-            <div className="foot-item a" href="../Lists/Lists.html">
-              Lists<i className="far fa-hand-point-right"></i>
-            </div>
-          </footer>
+          
         </div>
       </div>
     </div>

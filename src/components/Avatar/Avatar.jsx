@@ -2,6 +2,7 @@ import React from "react";
 import "./Avatar.css";
 import "../../css/main.css";
 import { TopNavBar, SideNavBar } from "../../pages/components/component-navbar";
+import { ComponentFooter } from "../../pages/components/component-footer";
 
 export const AvatarComponent = () => {
   return (
@@ -126,24 +127,9 @@ export const AvatarComponent = () => {
             ></iframe>
           </div>
 
-          <div className="gif-example">
-            <h1>How to Use?</h1>
+          
 
-            <img
-              className="gifs"
-              src={require("../../assets/exampleGifs/Avatar.gif")}
-              alt="avatar-example"
-            />
-          </div>
-
-          <footer className="page-footer a">
-            <div1 className="foot-item" href="./">
-              <i className="far fa-hand-point-left"></i>Home
-            </div1>
-            <div1 className="foot-item a" href="../Alert/Alert.html">
-              Alert<i className="far fa-hand-point-right"></i>
-            </div1>
-          </footer>
+          <ComponentFooter/>
         </div>
       </div>
     </div>

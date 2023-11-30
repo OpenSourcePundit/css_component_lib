@@ -2,6 +2,7 @@ import React from "react";
 import "./Rating.css";
 import "../../styles.css";
 import { TopNavBar, SideNavBar } from "../../pages/components/component-navbar";
+import { ComponentFooter } from "../../pages/components/component-footer";
 
 const Rating = () => {
   return (
@@ -79,23 +80,9 @@ const Rating = () => {
             ></iframe>
           </div>
 
-          <div className="gif-example">
-            <h1>How to Use?</h1>
-            <img
-              className="gifs"
-              src={require("../../assets/exampleGifs/rating.gif")}
-              alt="avatar-exaple"
-            />
-          </div>
+         
 
-          <footer className="page-footer">
-            <a className="foot-item" href="../Modal/Modal.html">
-              <i className="far fa-hand-point-left"></i>Modal
-            </a>
-            <a className="foot-item" href="../Snackbar/Snackbar.html">
-              Snackbar<i className="far fa-hand-point-right"></i>
-            </a>
-          </footer>
+          <ComponentFooter/>
         </div>
       </div>
     </div>

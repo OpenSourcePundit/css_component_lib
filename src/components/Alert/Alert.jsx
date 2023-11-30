@@ -1,6 +1,7 @@
 import React from "react";
 import "./Alert.css";
 import { TopNavBar, SideNavBar } from "../../pages/components/component-navbar";
+import { ComponentFooter } from "../../pages/components/component-footer";
 
 const Alert = () => {
   return (
@@ -105,22 +106,8 @@ const Alert = () => {
               ></iframe>
             </div>
           </div>
-          <div className="gif-example">
-            <h1>How to Use?</h1>
-            <img
-              className="gifs"
-              src={require("../../assets/exampleGifs/Alert.gif")}
-              alt="avatar-exaple"
-            />
-          </div>
-          <footer className="page-footer">
-            <a className="foot-item" href="../Avatar/Avatar.html">
-              <i className="far fa-hand-point-left"></i>Avatar
-            </a>
-            <a className="foot-item" href="../Badges/Badges.html">
-              Badge<i className="far fa-hand-point-right"></i>
-            </a>
-          </footer>
+          
+          <ComponentFooter/>
         </div>
       </div>
     </div>

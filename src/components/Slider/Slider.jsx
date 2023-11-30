@@ -1,6 +1,7 @@
 import React from "react";
 import "./Slider.css";
 import { TopNavBar, SideNavBar } from "../../pages/components/component-navbar";
+import { ComponentFooter } from "../../pages/components/component-footer";
 
 const Slider = () => {
   return (
@@ -69,23 +70,8 @@ const Slider = () => {
             </div>
           </div>
 
-          <div className="gif-example">
-            <h1>How to Use?</h1>
-            <img
-              className="gifs"
-              src={require("../../assets/exampleGifs/slider.gif")}
-              alt="avatar-example"
-            />
-          </div>
-
-          <footer className="page-footer">
-            <a className="foot-item" href="../Grid/Grid.html">
-              <i className="far fa-hand-point-left"></i>Grids
-            </a>
-            <a className="foot-item" href="../Avatar/Avatar.html">
-              Avatar<i className="far fa-hand-point-right"></i>
-            </a>
-          </footer>
+          
+          <ComponentFooter/>
         </div>
       </div>
     </div>
