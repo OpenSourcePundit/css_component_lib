@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Overlock&family=Poppins:ital,wght@0,300;0,400;1,200&display=swap');
+
+@import './src/css/components.css';
+@import './src/css/main.css';
+@import './src/components/Alert/Alert.css';
+@import './src/components/Avatar/Avatar.css';
+@import './src/components/Badges/Badges.css';
+@import './src/components/Button/Button.css';
+@import './src/components/Card/Card.css';
+@import './src/components/Grid/Grid.css';
+@import './src/components/Image/Image.css';
+@import './src/components/Input/Input.css';
+@import './src/components/Lists/Lists.css';
+@import './src/components/Modal/Modal.css';
+@import './src/components/Navigation/Navigation.css';
+@import './src/components/Rating/Rating.css';
+@import './src/components/Slider/Slider.css';
+@import './src/components/Snackbar/Snackbar.css';
+@import './src/components/Text-Utilities/TextUtil.css';
+
+
+
+:root{
+  --primary-color: #3a93c0;
+  --logo-color: #2f3b95;
+  --secondary-color: #d7f2f0;
+  --alternate-color: #630000;
+  --positive-color: rgb(3, 209, 3);
+  --negative-color: rgb(231, 0, 0);
+  --disable-color: rgb(196, 192, 192);
+  --hover: rgb(248, 248, 248);
+  --snackbar: rgb(36, 49, 79);
+  --star: rgb(255, 187, 0);
+  --lightblue: rgb(118, 207, 240);
+  --pink: rgb(192, 231, 255);
+  --dk-pink: rgb(111, 197, 251);
+  --red: rgb(255, 137, 137);
+  --dk-red: rgb(206, 21, 21);
+  --blue: rgb(176, 229, 255);
+  --dk-blue: rgb(104, 197, 255);
+  --purple: rgb(169, 175, 223);
+  --dk-purple: rgb(64, 66, 202);
+}
+
+body{      
+    font-family: 'Overlock', cursive;
+  }
