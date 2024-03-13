@@ -1,7 +1,6 @@
 {
   "name": "css_component_lib",
   "version": "0.1.0",
-  "private": true,
   "main": "index.js",
   "files": [
     "styles.css"
