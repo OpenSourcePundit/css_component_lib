@@ -1,6 +1,7 @@
 # CSS Component Library - OSP Components
 
 Welcome to the OSP-Components component library! This library provides pre-styled CSS classes that you can use in your React applications to quickly style your components.
+![image](https://github.com/OpenSourcePundit/css_component_lib/assets/112277097/78055603-9523-47ce-80ea-b24857d26cf4)
 
 ## Installation
 
