@@ -124,17 +124,22 @@ main {
   border-radius: 0.3rem;
   box-shadow: 0rem 0.2rem 0.4rem 0rem grey;
   color: var(--secondary-color);
+  transform: scale(1);
+  transition: 0.7s;
+  
 }
 
 .btn:hover {
   background-color: var(--secondary-color);
+  transform: scale(1.1);
+  
   transition: 0.7s;
   color: var(--primary-color);
   cursor: pointer;
 }
 
 .btn_primary {
-  color: var(--secondary-color);
+  color: var(--secondary-color); 
   background-color: var(--primary-color);
 }
 
